@@ -59,8 +59,8 @@ WEIGHT_DECAY = 1e-4
 LABEL_SMOOTHING = 0.1
 WARMUP_EPOCHS = 3
 
-# Safe worker count for Windows OS (avoids multiprocessing spawn deadlocks)
-NUM_WORKERS = 2
+# Set to 0 for Windows OS to eliminate IPC shared memory pagefile exhaustion (Win32 Error 1455)
+NUM_WORKERS = 0
 
 # Train / Validation / Test split fractions
 TRAIN_RATIO = 0.70

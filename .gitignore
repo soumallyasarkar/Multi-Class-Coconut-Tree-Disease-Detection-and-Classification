@@ -88,3 +88,6 @@ desktop.ini
 *.log
 scratch/
 .system_generated/
+
+# --- Documentation & Working Notes ---
+myDoc/
