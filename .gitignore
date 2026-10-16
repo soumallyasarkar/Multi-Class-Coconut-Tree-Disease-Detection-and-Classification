@@ -1,0 +1,90 @@
+# ====================================================================
+# Git Ignore Configuration
+# Multi-Class Coconut Tree Disease Detection & Classification
+# ====================================================================
+
+# --- Python Bytecode & Runtime Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Python Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Large Datasets & Archives ---
+# Raw image directory contains 5,798 high-resolution photos
+data/raw/*
+!data/raw/.gitkeep
+
+# Archive downloads
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Kaggle API Credentials & tokens
+kaggle.json
+.kaggle/
+
+# --- Model Checkpoints & Large Binary Weights ---
+# PyTorch weights (~90MB+ each; use releases or external cloud storage)
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.ckpt
+*.h5
+outputs/checkpoints/*
+!outputs/checkpoints/.gitkeep
+
+# --- Jupyter Notebooks & Interactive Sessions ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- Operating System Specific Artifacts ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Logs, Diagnostics & Scratch Scripts ---
+*.log
+scratch/
+.system_generated/

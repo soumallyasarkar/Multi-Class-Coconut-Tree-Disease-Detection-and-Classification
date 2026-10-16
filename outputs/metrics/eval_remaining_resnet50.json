@@ -1,0 +1,46 @@
+{
+  "model_name": "resnet50",
+  "evaluation_split": "remaining",
+  "sample_count": 3781,
+  "total_params": 23518277,
+  "size_mb": 89.72,
+  "latency_ms": 8.7,
+  "fps": 115.0,
+  "accuracy": 0.9193,
+  "macro_precision": 0.8503,
+  "macro_recall": 0.9556,
+  "macro_f1": 0.8844,
+  "weighted_f1": 0.9236,
+  "per_class": {
+    "Bud Root Dropping": {
+      "precision": 0.858,
+      "recall": 0.9929,
+      "f1_score": 0.9205,
+      "support": 140
+    },
+    "Bud Rot": {
+      "precision": 0.496,
+      "recall": 1.0,
+      "f1_score": 0.6631,
+      "support": 125
+    },
+    "Gray Leaf Spot": {
+      "precision": 0.9265,
+      "recall": 0.9161,
+      "f1_score": 0.9212,
+      "support": 1692
+    },
+    "Leaf Rot": {
+      "precision": 0.971,
+      "recall": 0.8688,
+      "f1_score": 0.9171,
+      "support": 1235
+    },
+    "Stem Bleeding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 589
+    }
+  }
+}

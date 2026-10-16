@@ -1,0 +1,351 @@
+image_path,class_name,label
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot200.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding473.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding998.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot902.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot422.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1588.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding538.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot296.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1425.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot853.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot080.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot247.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot015.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot101.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot803.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping317.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding294.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot133.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping275.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot425.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1435.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping409.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2086.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1491.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot348.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping412.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1211.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping089.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot339.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot562.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding700.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1974.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping080.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot107.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding924.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping364.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping395.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping371.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1170.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding607.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot450.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot465.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding562.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping440.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot928.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1873.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping413.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding631.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot235.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding316.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding421.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping330.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot062.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot273.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1231.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding438.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping173.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot402.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot275.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot279.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot589.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping312.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping327.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding782.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot431.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot052.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1427.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1305.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot082.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding029.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1514.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot038.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot412.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping499.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping122.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding578.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping077.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot286.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1139.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding117.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding216.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot114.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2095.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot454.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1483.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping132.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding576.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1238.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot276.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot629.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding040.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping498.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot635.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping303.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding166.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding673.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot992.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1138.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding589.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1811.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot249.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot001.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding068.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding407.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping477.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot079.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot372.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot183.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping229.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot826.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot219.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1155.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping134.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot743.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot643.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1252.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding479.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding979.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot057.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1359.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping292.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot637.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding408.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot361.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2131.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping223.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot722.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping294.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot986.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1108.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping455.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot477.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1045.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot042.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot994.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot475.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot253.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2120.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1472.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding222.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot013.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping448.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding597.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot393.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot217.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1389.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot124.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding381.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping136.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping149.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping001.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot673.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot186.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping153.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1633.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding625.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot120.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1313.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot398.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot352.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding287.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot582.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding198.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1645.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1174.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2119.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot777.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot742.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1164.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot446.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping340.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping078.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot678.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1524.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot355.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1280.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1311.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot369.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding711.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding577.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding260.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding573.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1550.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding414.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding421.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1453.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot845.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping482.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot013.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot459.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1780.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding987.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot224.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding650.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2133.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding471.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot177.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot221.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding604.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping044.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot109.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding764.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot084.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot046.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1009.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot125.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1335.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot955.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping454.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding677.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping465.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot871.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot057.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot226.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot078.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1049.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping495.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping483.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping419.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot320.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot282.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2055.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot002.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot164.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot974.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping421.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot016.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1101.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot094.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot239.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot434.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping057.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot025.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding474.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot471.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot075.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping358.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding444.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1363.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding075.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping006.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping156.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding674.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding706.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding325.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot191.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot783.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2010.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding095.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot076.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1628.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot019.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1399.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot265.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping464.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot591.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping301.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping126.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping316.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot347.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding361.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping016.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot561.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot356.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot361.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1426.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding972.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot064.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping112.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot376.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot160.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping436.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping145.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping280.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot350.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping441.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding521.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding328.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1302.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding932.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot813.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1574.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot610.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding909.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot161.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding781.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding188.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot371.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1297.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot062.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping041.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1451.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot270.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1499.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot063.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping460.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping273.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping354.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot186.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot443.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping297.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot262.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot428.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping091.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1282.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot978.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping039.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Rot\BudRot058.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1559.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1476.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding852.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot361.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding169.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding699.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot429.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping182.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping062.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot880.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot136.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding656.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot052.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2004.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping070.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping434.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1043.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1587.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping213.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding555.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot060.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot110.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1044.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding179.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1312.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding687.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1565.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot137.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1856.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot311.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot382.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding228.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1104.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Bud Rot\BudRot067.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding727.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping244.jpg,Bud Root Dropping,0
+C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot822.jpg,Gray Leaf Spot,2
+C:\Github\BTP\data\raw\Bud Rot\BudRot146.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Bud Rot\BudRot281.jpg,Bud Rot,1
+C:\Github\BTP\data\raw\Leaf Rot\LeafRot1224.jpg,Leaf Rot,3
+C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding935.jpg,Stem Bleeding,4
+C:\Github\BTP\data\raw\Bud Rot\BudRot237.jpg,Bud Rot,1

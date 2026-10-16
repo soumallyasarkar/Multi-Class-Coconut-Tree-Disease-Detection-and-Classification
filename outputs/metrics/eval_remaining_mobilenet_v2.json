@@ -1,0 +1,46 @@
+{
+  "model_name": "mobilenet_v2",
+  "evaluation_split": "remaining",
+  "sample_count": 3781,
+  "total_params": 2230277,
+  "size_mb": 8.51,
+  "latency_ms": 5.21,
+  "fps": 191.9,
+  "accuracy": 0.931,
+  "macro_precision": 0.9012,
+  "macro_recall": 0.9507,
+  "macro_f1": 0.9177,
+  "weighted_f1": 0.9321,
+  "per_class": {
+    "Bud Root Dropping": {
+      "precision": 0.9853,
+      "recall": 0.9571,
+      "f1_score": 0.971,
+      "support": 140
+    },
+    "Bud Rot": {
+      "precision": 0.6373,
+      "recall": 0.984,
+      "f1_score": 0.7736,
+      "support": 125
+    },
+    "Gray Leaf Spot": {
+      "precision": 0.9092,
+      "recall": 0.9533,
+      "f1_score": 0.9308,
+      "support": 1692
+    },
+    "Leaf Rot": {
+      "precision": 0.9743,
+      "recall": 0.8591,
+      "f1_score": 0.9131,
+      "support": 1235
+    },
+    "Stem Bleeding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 589
+    }
+  }
+}
