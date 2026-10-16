@@ -3,7 +3,8 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5%20CUDA%2012.1-EE4C2C.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Edge Ready](https://img.shields.io/badge/Edge%20Inference-191.9%20FPS%20(8.5MB)-brightgreen.svg)](#hardware-efficiency--deployment-feasibility)
+[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-98.97%25%20(MobileNetV2)-success.svg)](#-experimental-results--benchmark-leaderboard)
+[![Edge Ready](https://img.shields.io/badge/Edge%20Inference-203.3%20FPS%20(8.5MB)-brightgreen.svg)](#hardware-efficiency--deployment-feasibility)
 
 **B.Tech Final Year Project (BTP)**  
 *Department of Computer Science and Engineering*  
@@ -32,7 +33,7 @@ Conventional disease diagnosis relies on manual visual inspection by experienced
 3. Fine-grained visual overlap (e.g., distinguishing **Leaf Rot** from **Gray Leaf Spot** necrotic lesions).
 4. Severe natural class imbalance across field conditions.
 
-This project implements an end-to-end, high-performance deep learning framework for **automated multi-class coconut tree disease classification and symptom localization**. Leveraging pre-trained convolutional neural backbones (ResNet-50, MobileNetV2, EfficientNet-B0), imbalance-mitigating sampling techniques (WeightedRandomSampler, Cost-Sensitive Weighted Cross-Entropy, Focal Loss), and a **Soft-Voting Ensemble**, the system achieves **93.92% overall accuracy** and **100% recall on fatal Bud Rot** on unseen field imagery. Furthermore, **Grad-CAM (Gradient-Weighted Class Activation Mapping)** is integrated to deliver visual interpretability, allowing agronomists to audit the exact symptom regions that drive the model's predictions.
+This project implements an end-to-end, high-performance deep learning framework for **automated multi-class coconut tree disease classification and symptom localization**. Leveraging pre-trained convolutional neural backbones (MobileNetV2, ResNet-50, EfficientNet-B0), imbalance-mitigating sampling techniques (WeightedRandomSampler, Cost-Sensitive Weighted Cross-Entropy, Focal Loss), and a **Two-Stage Fine-Tuning Pipeline**, the optimized system achieves **98.97% overall test accuracy**, a **0.9916 Macro F1-Score**, and **100% recall on fatal Bud Rot** on unseen field imagery at **203.3 FPS**. Furthermore, **Grad-CAM (Gradient-Weighted Class Activation Mapping)** is integrated to deliver visual interpretability, allowing agronomists to audit the exact symptom regions that drive the model's predictions.
 
 ---
 
@@ -77,7 +78,29 @@ The benchmark dataset comprises **5,798 field images** across all five disease c
 
 ## 📈 Experimental Results & Benchmark Leaderboard
 
-### 1. Large-Scale Out-of-Sample Field Evaluation ($N = 3,781$ Unseen Images)
+### 🏆 1. State-of-the-Art Test Benchmark (Full Dataset, $N = 874$ Test Images)
+Following Two-Stage Fine-Tuning (classification head warmup + differential learning rates), $256 \times 256$ multi-scale augmentations with `RandomErasing`, and Label Smoothing ($0.1$), the optimized **MobileNetV2** achieved a new milestone on the test split:
+
+| Model Architecture | Test Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 🥇 **MobileNetV2 (Two-Stage + Full Data)** | **98.97%** | **0.9916** | **0.9897** | **99.37%** | **98.96%** | **4.92 ms** | **203.3 FPS** | **8.51 MB** |
+| 🥈 **ResNet-50 (Baseline)** | 94.65% | 0.9459 | 0.9465 | 0.9465 | 0.9480 | 8.69 ms | 115.0 FPS | 89.72 MB |
+| 🥉 **Soft-Voting Ensemble** | 93.92% | 0.9211 | 0.9407 | 96.39% | 89.67% | 11.08 ms | 90.3 FPS | 98.23 MB |
+
+#### Per-Class Diagnostic Breakdown (MobileNetV2 — 874 Test Images)
+| Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical & Pathology Status |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Bud Root Dropping** | 78 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Precision & Recall** |
+| **Bud Rot** | 71 | **0.9726** | **1.0000** | **0.9861** | **Zero Missed Infections (71/71 caught)** |
+| **Stem Bleeding** | 152 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Precision & Recall** |
+| **Gray Leaf Spot** | 321 | **0.9875** | **0.9844** | **0.9860** | Highly robust on complex foliar lesions |
+| **Leaf Rot** | 252 | **0.9880** | **0.9841** | **0.9861** | High discrimination against necrosis overlap |
+
+> **Critical Agronomic Finding**: MobileNetV2 achieved a **100.0% Recall on the fatal Bud Rot pathology** (71 out of 71 infected test palms correctly detected with zero false negatives). Detecting 100% of fatal heart rot cases while sustaining **98.97% overall accuracy** at **203 FPS** establishes an ultra-reliable, edge-deployable solution for field inspection.
+
+---
+
+### 2. Large-Scale Out-of-Sample Field Evaluation ($N = 3,781$ Unseen Images)
 To test true out-of-distribution robustness, models trained on balanced subsets were evaluated on the **3,781 remaining uncurated field images**:
 
 | Model Architecture | Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
@@ -86,7 +109,7 @@ To test true out-of-distribution robustness, models trained on balanced subsets 
 | 🥈 **MobileNetV2** | **93.10%** | **0.9177** | **0.9321** | 95.07% | **90.12%** | **5.21 ms** | **191.9 FPS** | **8.5 MB** |
 | 🥉 **ResNet-50** | 91.93% | 0.8844 | 0.9236 | **95.56%** | 85.03% | 8.70 ms | 115.0 FPS | 89.7 MB |
 
-### 2. Per-Class Performance Breakdown (Soft-Voting Ensemble)
+### 3. Per-Class Performance Breakdown (Soft-Voting Ensemble on Out-of-Sample Data)
 | Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical Status |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Stem Bleeding** | 589 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Detection** |
@@ -235,8 +258,8 @@ Grad-CAM highlights:
 
 | Deployment Target | Recommended Architecture | Latency | Frame Rate | Footprint | Power Profile |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Drone / UAV Inspection** | MobileNetV2 | **5.21 ms** | **191.9 FPS** | **8.5 MB** | Ultra-Low Power |
-| **Android / iOS Mobile App** | MobileNetV2 (ONNX/TFLite) | **~12 ms** | **~80 FPS** | **8.5 MB** | Battery Efficient |
+| **Drone / UAV Inspection** | MobileNetV2 | **4.92 ms** | **203.3 FPS** | **8.5 MB** | Ultra-Low Power |
+| **Android / iOS Mobile App** | MobileNetV2 (ONNX/TFLite) | **~10 ms** | **~100 FPS** | **8.5 MB** | Battery Efficient |
 | **Cloud Server Batch Diagnosis** | Soft-Voting Ensemble | **11.08 ms** | **90.3 FPS** | **98.2 MB** | High Redundancy / Safe |
 
 ---
