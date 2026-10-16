@@ -8,12 +8,12 @@
 
 ## 👥 Project Team Members
 
-| Name | Roll Number | Email |
-|:---|:---:|:---|
-| **Ansh Singh** | `2023BCS0120` | [2023bcs0120@iiitkottayam.ac.in](mailto:2023bcs0120@iiitkottayam.ac.in) |
-| **Lakshmi Harshitha Cheedella** | `2023BCS0069` | [2023bcs0069@iiitkottayam.ac.in](mailto:2023bcs0069@iiitkottayam.ac.in) |
-| **Soumalya Sarkar** | `2023BCS0172` | [2023bcs0172@iiitkottayam.ac.in](mailto:2023bcs0172@iiitkottayam.ac.in) |
-| **Chennupati Bhargav** | `2023BCS0219` | [2023bcs0219@iiitkottayam.ac.in](mailto:2023bcs0219@iiitkottayam.ac.in) |
+| Name | Roll Number |
+|:---|:---:|
+| **Ansh Singh** | `2023BCS0120` |
+| **Lakshmi Harshitha Cheedella** | `2023BCS0069` |
+| **Soumalya Sarkar** | `2023BCS0172` |
+| **Chennupati Bhargav** | `2023BCS0219` |
 
 **Project Guide:** Dr. Lidiya Lilly Thampi
 
@@ -21,24 +21,24 @@
 
 ## 📑 Table of Contents
 
-- [Introduction](#-introduction)
-- [Motivation](#-motivation)
-- [Problem Statement](#-problem-statement)
-- [Project Objectives](#-project-objectives)
-- [Dataset Description](#-dataset-description)
-- [Proposed Methodology](#-proposed-methodology)
-- [Deep Learning Models](#-deep-learning-models)
-- [Evaluation Metrics](#-evaluation-metrics)
-- [Project Workflow](#-project-workflow)
-- [Expected Outcomes](#-expected-outcomes)
-- [Hardware Efficiency & Deployment Feasibility](#-hardware-efficiency--deployment-feasibility)
+- [Introduction](#introduction)
+- [Motivation](#motivation)
+- [Problem Statement](#problem-statement)
+- [Project Objectives](#project-objectives)
+- [Dataset Description](#dataset-description)
+- [Proposed Methodology](#proposed-methodology)
+- [Deep Learning Models](#deep-learning-models)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Project Workflow](#project-workflow)
+- [Expected Outcomes](#expected-outcomes)
+- [Hardware Efficiency & Deployment Feasibility](#hardware-efficiency--deployment-feasibility)
 - [Git Branching and Collaboration](#-git-branching-and-collaboration)
-- [Future Scope](#-future-scope)
-- [References](#-references)
+- [Future Scope](#future-scope)
+- [References](#references)
 
 ---
 
-## 🌴 Introduction
+## Introduction
 
 Coconut cultivation plays an important role in agriculture and the livelihoods of farming communities. However, coconut trees are vulnerable to several diseases that affect their leaves, buds, and stems, leading to reduced plant health and productivity.
 
@@ -50,7 +50,7 @@ Deep learning and computer vision offer a promising approach to automating disea
 
 The central focus is a systematic comparison of multiple deep learning architectures under a consistent experimental setup, followed by the selection of a suitable model based on predictive performance and computational efficiency.
 
-## 🎯 Motivation
+## Motivation
 
 Although previous studies have demonstrated promising results in coconut disease classification and detection, important research challenges remain.
 
@@ -61,7 +61,7 @@ Although previous studies have demonstrated promising results in coconut disease
 
 This project addresses these challenges by investigating multiple classification and detection architectures using a common experimental framework and evidence-based model selection.
 
-## ❗ Problem Statement
+## Problem Statement
 
 Coconut tree diseases affect different parts of the plant and exhibit varying visual symptoms. Manual identification is often slow and requires domain expertise, making large-scale monitoring difficult.
 
@@ -69,7 +69,7 @@ There is a need to systematically evaluate multiple deep learning models on a fi
 
 **The objective is to develop and evaluate a deep learning framework for multi-class coconut tree disease classification and detection, compare candidate models fairly, and select the best-performing model using experimental evidence.**
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. Prepare and analyze the five-class coconut tree disease dataset.
 2. Apply suitable image preprocessing and augmentation techniques.
@@ -83,7 +83,7 @@ There is a need to systematically evaluate multiple deep learning models on a fi
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The project uses the **Coconut Tree Disease Dataset** published by Thite et al. (2023).
 
@@ -128,7 +128,7 @@ The same underlying dataset and comparable data-splitting procedures will be use
 
 ---
 
-## 🏗️ Proposed Methodology
+## Proposed Methodology
 
 The proposed system follows a structured deep learning pipeline, from dataset preparation to final model selection.
 
@@ -158,7 +158,7 @@ Integrate the selected model into a final disease classification and/or detectio
 
 ---
 
-## 🧠 Deep Learning Models
+## Deep Learning Models
 
 The project investigates multiple established deep learning architectures for comparative evaluation.
 
@@ -198,7 +198,7 @@ The comparison will focus on:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 A combination of predictive-performance and computational-efficiency metrics will be used to assess the candidate models.
 
@@ -232,7 +232,7 @@ Classification and detection metrics will be interpreted separately where necess
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 The planned project follows these phases.
 
@@ -250,7 +250,7 @@ This workflow is intended to maintain a clear progression from data preparation 
 
 ---
 
-## ✅ Expected Outcomes
+## Expected Outcomes
 
 The project aims to deliver:
 
@@ -267,7 +267,7 @@ These are intended deliverables. Final performance figures and conclusions will 
 
 ---
 
-## ⚡ Hardware Efficiency & Deployment Feasibility
+## Hardware Efficiency & Deployment Feasibility
 
 Practical agricultural applications require models that balance predictive performance with computational efficiency.
 
@@ -358,7 +358,7 @@ This workflow allows team members to develop independently while keeping the sha
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 The project may be extended in several directions:
 
@@ -371,7 +371,7 @@ The project may be extended in several directions:
 
 ---
 
-## 📚 References
+## References
 
 1. Thite, S., Suryawanshi, Y., Patil, K., & Chumchu, P. (2023). *Coconut tree disease dataset*. Data in Brief, 51, 109690. [https://doi.org/10.1016/j.dib.2023.109690](https://doi.org/10.1016/j.dib.2023.109690)
 
@@ -395,7 +395,7 @@ The project may be extended in several directions:
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 We express our gratitude to **Dr. Lidiya Lilly Thampi**, our project guide, for her guidance and support throughout this work.
 
