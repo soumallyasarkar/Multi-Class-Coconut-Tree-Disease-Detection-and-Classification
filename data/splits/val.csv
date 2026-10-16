@@ -1,351 +1,868 @@
 image_path,class_name,label
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot200.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding473.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding998.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot902.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot422.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1588.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding538.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot296.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1425.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot853.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot080.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot247.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot015.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot101.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot803.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping317.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding294.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot133.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping275.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot425.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1435.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping409.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2086.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1491.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot348.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping412.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1211.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping089.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot339.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot562.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding700.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1974.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping080.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot107.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding924.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping364.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping395.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping371.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1170.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding607.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot450.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot465.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding562.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping440.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot928.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1873.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping413.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding631.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot235.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding316.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding421.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping330.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot062.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot273.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1231.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding438.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping173.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot402.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot275.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot279.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot589.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping312.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping327.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding782.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot431.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot052.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1427.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1305.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot082.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding029.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1514.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot038.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot412.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping499.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping122.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding578.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping077.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot286.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1139.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding117.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding216.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot114.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2095.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot454.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1483.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping132.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding576.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1238.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot276.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot629.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding040.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping498.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot635.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping303.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding166.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding673.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot992.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1138.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding589.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1811.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot249.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot001.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding068.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding407.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping477.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot079.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot372.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot183.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping229.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot826.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot219.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1155.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping134.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot743.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot643.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1252.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding479.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding979.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot057.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1359.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping292.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot637.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding408.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot361.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2131.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping223.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot722.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping294.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot986.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1108.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping455.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot477.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1045.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot042.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot994.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot475.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot253.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2120.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1472.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding222.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot013.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping448.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding597.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot393.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot217.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1389.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot124.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding381.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping136.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping149.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping001.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot673.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot186.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping153.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1633.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding625.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot120.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1313.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot398.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot352.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding287.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot582.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding198.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1645.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1174.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2119.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot777.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot742.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1164.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot446.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping340.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping078.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot678.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1524.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot355.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1280.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1311.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot369.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding711.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding577.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding260.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding573.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1550.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding414.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding421.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1453.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot845.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping482.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot013.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot459.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1780.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding987.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot224.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding650.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2133.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding471.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot177.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot221.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding604.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping044.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot109.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding764.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot084.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot046.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1009.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot125.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1335.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot955.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping454.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding677.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping465.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot871.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot057.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot226.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot078.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1049.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping495.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping483.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping419.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot320.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot282.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2055.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot002.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot164.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot974.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping421.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot016.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1101.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot094.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot239.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot434.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping057.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot025.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding474.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot471.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot075.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping358.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding444.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1363.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding075.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping006.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping156.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding674.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding706.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding325.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot191.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot783.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2010.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding095.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot076.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1628.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot019.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1399.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot265.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping464.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot591.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping301.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping126.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping316.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot347.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding361.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping016.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot561.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot356.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot361.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1426.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding972.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot064.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping112.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot376.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot160.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping436.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping145.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping280.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot350.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping441.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding521.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding328.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1302.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding932.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot813.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1574.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot610.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding909.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot161.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding781.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding188.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot371.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1297.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot062.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping041.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1451.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot270.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1499.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot063.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping460.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping273.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping354.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot186.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot443.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping297.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot262.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot428.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping091.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1282.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot978.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping039.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Rot\BudRot058.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1559.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1476.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding852.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot361.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding169.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding699.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot429.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping182.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping062.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot880.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot136.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding656.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot052.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot2004.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping070.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping434.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1043.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1587.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping213.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding555.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot060.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot110.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1044.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding179.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1312.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding687.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1565.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot137.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot1856.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot311.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot382.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding228.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1104.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Bud Rot\BudRot067.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding727.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Root Dropping\BudRootDropping244.jpg,Bud Root Dropping,0
-C:\Github\BTP\data\raw\Gray Leaf Spot\GrayLeafSpot822.jpg,Gray Leaf Spot,2
-C:\Github\BTP\data\raw\Bud Rot\BudRot146.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Bud Rot\BudRot281.jpg,Bud Rot,1
-C:\Github\BTP\data\raw\Leaf Rot\LeafRot1224.jpg,Leaf Rot,3
-C:\Github\BTP\data\raw\Stem Bleeding\StemBleeding935.jpg,Stem Bleeding,4
-C:\Github\BTP\data\raw\Bud Rot\BudRot237.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1923.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot138.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping310.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding226.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1685.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot307.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding386.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot254.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping231.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding904.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping420.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1307.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping415.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot381.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1372.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot342.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1015.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot956.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1601.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1634.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping002.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot335.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1628.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot172.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping191.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1406.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding634.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot128.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot847.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding454.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1582.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1487.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot776.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1857.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping054.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot960.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot629.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot141.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot873.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1383.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1608.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding813.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding432.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding621.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1491.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1214.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding997.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1826.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot682.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot253.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding567.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot615.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot974.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot723.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot346.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding547.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping015.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot191.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1582.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding798.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot327.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1082.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping063.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2018.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot544.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot781.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot606.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot389.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1509.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot094.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding750.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1947.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot422.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1798.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot853.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot553.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1634.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1374.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1219.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot748.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1490.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding005.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot900.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot389.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1889.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1953.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding503.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot238.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding905.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding601.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1054.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot793.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot280.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping044.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1055.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding367.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1531.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping402.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot335.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot115.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot200.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot391.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot162.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot820.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot005.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot286.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot023.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding981.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot526.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding606.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1506.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding123.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding635.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping338.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot044.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot282.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1167.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1992.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot470.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding099.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot640.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot954.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping491.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping136.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot446.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot204.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1183.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot492.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot948.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1383.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot399.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot009.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot255.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot866.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot101.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1352.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding626.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1745.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot791.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1018.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot397.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping101.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping470.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1884.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1418.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot442.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot028.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1186.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding164.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1549.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot498.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping379.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot404.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping172.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding380.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot242.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot687.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1503.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot382.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1301.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1549.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping139.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot012.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot813.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1781.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot971.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1312.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot424.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot176.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding977.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot318.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot940.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding912.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1612.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot054.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1485.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding287.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1337.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot779.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1374.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot393.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot369.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot551.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot166.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding370.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding786.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping439.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1275.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1770.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot047.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot289.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot878.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1048.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot263.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot180.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot921.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping005.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1013.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1661.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding802.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1537.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot405.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot238.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding633.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot771.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot187.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1542.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot838.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding550.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot570.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1933.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1118.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot147.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding900.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot005.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1008.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot396.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1536.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot629.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot338.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot005.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot298.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding957.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot351.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding889.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1577.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot408.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping252.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot984.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot862.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1018.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1746.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1167.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot705.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot288.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1996.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding177.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot894.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot404.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping270.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1523.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding897.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot760.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot400.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2135.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2072.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1194.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1360.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot825.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot493.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1881.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2011.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot186.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding396.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding868.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot062.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding613.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2088.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding818.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping106.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot432.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot426.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding782.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot202.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot272.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping437.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2017.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot625.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot787.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding518.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1667.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot310.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot107.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping227.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding789.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1045.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping454.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1427.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot597.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding276.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot002.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot315.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1680.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1545.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding378.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot304.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot017.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1375.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot550.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping041.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1487.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot449.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1478.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping503.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1927.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding648.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1537.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping261.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot804.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot105.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1139.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping208.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1875.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding252.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot654.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot747.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1003.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1532.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1638.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1320.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping328.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot763.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot681.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot227.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping202.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1829.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1909.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding086.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding400.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot330.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1702.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot197.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1657.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1594.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot789.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot714.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1200.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding805.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1049.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot915.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot440.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot247.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot806.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1682.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1854.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1476.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding918.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping497.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot301.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot329.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1052.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot139.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot015.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot870.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot033.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding571.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot216.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1821.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot785.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding738.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding499.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1664.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1245.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot328.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping099.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot984.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping473.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping380.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1810.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1322.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding768.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot818.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1637.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1153.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot415.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1667.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding261.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot790.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding774.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot892.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot916.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot706.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1811.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot862.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot262.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping048.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping257.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot713.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2003.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1342.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot027.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding642.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot959.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot539.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1052.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot986.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1657.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1418.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping434.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1378.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping401.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot051.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot592.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1398.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding196.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding847.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot985.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot623.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding141.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1571.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot433.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot268.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding762.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot959.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot546.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1049.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1106.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding153.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot038.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot357.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping050.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot387.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1505.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1902.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping260.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding540.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot834.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot650.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot207.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot759.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot688.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot293.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding137.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot433.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot208.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1042.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1437.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot938.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping255.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding732.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding788.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding631.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2101.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot897.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot213.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot639.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot577.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot041.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot127.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot967.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1114.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot366.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1107.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot094.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot955.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot454.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot390.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot719.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1612.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding670.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot017.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot020.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1107.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot240.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1955.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot261.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot362.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1431.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping280.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot611.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot036.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding703.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1233.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1083.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding496.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding783.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot129.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping351.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot970.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding482.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot261.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot497.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1622.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding685.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot570.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot076.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1450.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot525.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1360.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping471.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding727.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot692.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot237.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding457.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding858.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1162.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot036.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping237.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1466.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1114.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding896.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot559.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1153.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2012.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding218.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot106.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot890.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1531.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot157.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot260.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1427.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot134.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2102.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1245.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping201.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1269.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot983.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot757.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot105.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot824.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding987.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping293.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1800.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot203.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping301.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot806.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1143.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding544.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1132.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot627.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding116.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1719.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot999.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1015.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping268.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot296.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1505.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2042.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1200.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding846.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot889.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot157.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot193.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot062.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1638.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot513.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1342.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1047.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding791.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot229.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot468.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding211.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping217.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding227.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot384.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot721.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1313.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping033.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1437.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping443.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding736.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding653.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1352.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1025.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1378.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot323.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot281.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot207.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping289.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1276.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1836.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1792.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1168.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping065.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding943.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1661.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot692.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding096.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding958.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot896.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1580.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding603.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding200.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1542.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding234.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding796.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding557.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot962.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1073.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1977.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1478.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot255.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot846.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot437.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2114.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot606.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot402.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot697.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot778.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1599.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot217.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping296.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1970.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2133.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding845.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1908.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding319.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot998.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping214.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding841.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping478.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1118.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot818.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1485.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1534.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1337.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot223.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1406.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2070.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot489.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1460.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1426.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot009.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding837.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1149.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot023.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1878.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot417.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1508.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding684.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot038.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot230.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1490.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1697.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot257.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot338.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding191.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot466.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot054.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding534.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1324.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot319.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2099.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2087.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1423.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot406.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot537.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot911.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot724.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1214.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1073.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding618.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot252.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot688.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1025.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1223.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot462.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding311.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot090.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1307.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding404.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot485.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding352.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot522.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding180.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot857.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1934.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding568.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot997.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot134.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot935.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot942.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot663.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot065.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot305.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding886.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1082.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot855.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding760.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot816.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot905.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1506.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot745.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1945.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding106.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot157.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1930.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot974.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot720.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1815.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot128.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1132.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1362.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding236.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1353.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot178.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1186.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot323.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot027.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding636.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding953.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding692.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot138.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding273.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1590.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding117.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1670.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding036.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot020.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot214.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1054.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot755.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot509.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot477.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping327.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot047.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot719.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot545.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding394.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding852.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding639.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot201.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot540.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1683.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1272.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot114.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot983.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1312.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding729.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1284.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1783.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1532.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding602.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1459.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping461.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot953.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding341.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1460.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot999.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding928.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot449.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot369.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding737.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1503.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1752.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot419.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping447.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping129.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1600.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot270.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping163.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding213.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1879.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1233.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1398.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1627.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot763.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1442.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot527.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1354.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot954.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot218.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping162.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1536.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1336.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot431.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding877.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1375.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping218.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping062.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1862.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping157.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1301.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1599.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot037.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding914.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1790.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping213.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot731.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding409.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding888.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding140.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2055.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1046.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1832.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding930.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1534.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1590.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding721.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1738.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot890.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot735.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot404.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding342.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot018.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1339.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1143.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding972.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot063.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot051.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1354.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping424.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding927.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1045.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot257.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot264.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping009.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding435.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot768.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot204.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot558.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1272.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot048.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1149.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1431.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1670.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding490.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot363.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping216.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1664.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot018.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1622.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot178.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1561.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding719.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot372.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1601.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding391.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot880.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1723.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot626.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot475.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot341.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1511.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding665.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1148.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot646.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1098.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1627.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping304.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot222.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1194.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding240.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1608.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping028.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1892.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot759.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1713.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1882.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot487.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot281.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding466.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot958.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1219.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1820.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding758.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1628.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot283.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot460.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1656.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot231.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot173.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot099.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1336.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1706.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1289.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1962.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot410.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot1183.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping501.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Leaf Rot\LeafRot648.jpg,Leaf Rot,3
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Root Dropping\BudRootDropping390.jpg,Bud Root Dropping,0
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot136.jpg,Bud Rot,1
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot2025.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Stem Bleeding\StemBleeding677.jpg,Stem Bleeding,4
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Gray Leaf Spot\GrayLeafSpot1508.jpg,Gray Leaf Spot,2
+C:\Github\BTP\Multi-Class-Coconut-Tree-Disease-Detection-and-Classification\data\raw\Bud Rot\BudRot163.jpg,Bud Rot,1
