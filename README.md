@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5%20CUDA%2012.1-EE4C2C.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-98.97%25%20(MobileNetV2)-success.svg)](#-experimental-results--benchmark-leaderboard)
+[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-98.97%25%20(MobileNetV2)-success.svg)](#experimental-results--benchmark-leaderboard)
 [![Edge Ready](https://img.shields.io/badge/Edge%20Inference-203.3%20FPS%20(8.5MB)-brightgreen.svg)](#hardware-efficiency--deployment-feasibility)
 
 **B.Tech Final Year Project (BTP)**  
@@ -12,7 +12,7 @@
 
 ---
 
-## 👥 Project Team Members
+## Project Team Members
 
 | Name | Roll Number | Email / GitHub |
 | :--- | :---: | :---: |
@@ -23,7 +23,7 @@
 
 ---
 
-## 📌 Executive Summary & Abstract
+## Executive Summary & Abstract
 
 Coconut palm (*Cocos nucifera*) is an indispensable plantation crop vital to the agrarian economies of tropical and coastal regions worldwide. However, plantations suffer devastating economic losses from infectious fungal, bacterial, and physiological pathologies. In particular, **Bud Rot** (*Phytophthora palmivora*) causes complete vascular collapse and irreversible tree mortality within weeks if unmanaged.
 
@@ -37,7 +37,7 @@ This project implements an end-to-end, high-performance deep learning framework 
 
 ---
 
-## 🔬 Key Features & Technical Highlights
+## Key Features & Technical Highlights
 
 - **Multi-Class Disease Coverage**: Classifies all 5 major coconut palm conditions:
   - `Bud Root Dropping` (Premature fruitlet and button shedding)
@@ -46,22 +46,23 @@ This project implements an end-to-end, high-performance deep learning framework 
   - `Leaf Rot` (Foliar collapse and flaccid leaflet decay)
   - `Stem Bleeding` (*Ceratocystis paradoxa* dark trunk exudate)
 - **Class Imbalance Mitigation**:
-  - Implements `WeightedRandomSampler` to guarantee equal class representation ($20\%$ per category) in every mini-batch.
+  - Implements `WeightedRandomSampler` to guarantee equal class representation (20% per category) in every mini-batch.
   - Supports **Cost-Sensitive Weighted Cross-Entropy** with inverse-frequency penalties and **Focal Loss** ($\gamma = 2.0$) to prioritize hard minority samples.
   - Stratified partitioning ensuring consistent evaluation without minority depletion.
 - **Two-Stage Fine-Tuning Pipeline**:
   - **Stage 1 (Warmup)**: Classification head warmup with frozen convolutional backbones to preserve ImageNet representations.
   - **Stage 2 (Full Fine-Tuning)**: End-to-end adaptation with differential learning rates (Backbone $\text{LR} = 10^{-5}$, Head $\text{LR} = 10^{-4}$) and Cosine Annealing decay.
-- **Soft-Voting Ensemble Strategy**:
-  - Probability-level blending combining the deep representational capacity of **ResNet-50** with the compact generalization of **MobileNetV2**.
+- **Regularization & Augmentation**:
+  - Employs **RandomErasing** and photometric jittering to prevent over-indexing on localized frond artifacts.
+  - Integrates **Label Smoothing ($0.1$)** to calibrate prediction confidence on visually ambiguous foliar necrosis patterns.
 - **Explainable AI (XAI)**:
   - Generates high-resolution **Grad-CAM** heatmaps overlaid on input imagery, highlighting pathological lesion boundaries for transparent clinical validation.
 - **Edge Deployment Ready**:
-  - MobileNetV2 delivers **191.9 FPS** with an ultra-compact **8.51 MB** footprint, enabling real-time deployment on drones, Raspberry Pi, and Android edge devices.
+  - MobileNetV2 delivers **203.3 FPS (4.92 ms)** with an ultra-compact **8.51 MB** footprint, enabling real-time deployment on drones, Raspberry Pi, and Android edge devices.
 
 ---
 
-## 📊 Dataset Distribution & Architecture
+## Dataset Distribution & Architecture
 
 The benchmark dataset comprises **5,798 field images** across all five disease classes:
 
@@ -74,20 +75,35 @@ The benchmark dataset comprises **5,798 field images** across all five disease c
 | **Bud Rot** | Heart rot of the apical bud, leading to crown collapse | 470 | 8.1% | **Critical Minority** |
 | **Total** | | **5,798** | **100.0%** | **4.5 : 1 Ratio** |
 
+### Stratified Dataset Partition (Latest Training Pipeline)
+
+To ensure rigorous evaluation without data leakage or minority class starvation, the complete dataset of 5,798 images is partitioned using stratified sampling (70% Train, 15% Validation, 15% Test):
+
+| Disease Class | Total Images | Training Split (70%) | Validation Split (15%) | Test Split (15%) | Loss Penalty Weight ($w_c$) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Gray Leaf Spot** | 2,135 | 1,494 | 320 | 321 | 0.543 |
+| **Leaf Rot** | 1,673 | 1,171 | 250 | 252 | 0.693 |
+| **Stem Bleeding** | 1,006 | 704 | 150 | 152 | 1.153 |
+| **Bud Root Dropping** | 514 | 359 | 77 | 78 | 2.260 |
+| **Bud Rot** (Critical Minority) | 470 | 329 | 70 | 71 | 2.466 |
+| **Total** | **5,798** | **4,057** | **867** | **874** | -- |
+
 ---
 
-## 📈 Experimental Results & Benchmark Leaderboard
+## Experimental Results & Benchmark Leaderboard
 
-### 🏆 1. State-of-the-Art Test Benchmark (Full Dataset, $N = 874$ Test Images)
-Following Two-Stage Fine-Tuning (classification head warmup + differential learning rates), $256 \times 256$ multi-scale augmentations with `RandomErasing`, and Label Smoothing ($0.1$), the optimized **MobileNetV2** achieved a new milestone on the test split:
+### 1. State-of-the-Art Test Benchmark (Full Dataset, N = 874 Test Images)
+
+Following Two-Stage Fine-Tuning (classification head warmup + differential learning rates), $256 \times 256$ multi-scale augmentations with RandomErasing, and Label Smoothing ($0.1$), the optimized **MobileNetV2** established a new state-of-the-art on the test split:
 
 | Model Architecture | Test Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 🥇 **MobileNetV2 (Two-Stage + Full Data)** | **98.97%** | **0.9916** | **0.9897** | **99.37%** | **98.96%** | **4.92 ms** | **203.3 FPS** | **8.51 MB** |
-| 🥈 **ResNet-50 (Baseline)** | 94.65% | 0.9459 | 0.9465 | 0.9465 | 0.9480 | 8.69 ms | 115.0 FPS | 89.72 MB |
-| 🥉 **Soft-Voting Ensemble** | 93.92% | 0.9211 | 0.9407 | 96.39% | 89.67% | 11.08 ms | 90.3 FPS | 98.23 MB |
+| **MobileNetV2 (Two-Stage + Full Data)** | **98.97%** | **0.9916** | **0.9897** | **99.37%** | **98.96%** | **4.92 ms** | **203.3 FPS** | **8.51 MB** |
+| **ResNet-50 (Baseline)** | 94.65% | 0.9459 | 0.9465 | 0.9465 | 0.9480 | 8.69 ms | 115.0 FPS | 89.72 MB |
+| **Soft-Voting Ensemble** | 93.92% | 0.9211 | 0.9407 | 96.39% | 89.67% | 11.08 ms | 90.3 FPS | 98.23 MB |
 
 #### Per-Class Diagnostic Breakdown (MobileNetV2 — 874 Test Images)
+
 | Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical & Pathology Status |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Bud Root Dropping** | 78 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Precision & Recall** |
@@ -100,16 +116,18 @@ Following Two-Stage Fine-Tuning (classification head warmup + differential learn
 
 ---
 
-### 2. Large-Scale Out-of-Sample Field Evaluation ($N = 3,781$ Unseen Images)
-To test true out-of-distribution robustness, models trained on balanced subsets were evaluated on the **3,781 remaining uncurated field images**:
+### 2. Ablation & Out-of-Sample Evaluation (Balanced-Subset Training, N = 3,781 Images)
+
+In preliminary development phases, models were trained under strict undersampling (capping each class to 470 samples, total 2,350 images) and stress-tested against the remaining **3,781 uncurated field images** to assess out-of-sample generalization:
 
 | Model Architecture | Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 🥇 **Soft-Voting Ensemble** | **93.92%** | **0.9211** | **0.9407** | **96.39%** | 89.67% | 11.08 ms | 90.3 FPS | 98.2 MB |
-| 🥈 **MobileNetV2** | **93.10%** | **0.9177** | **0.9321** | 95.07% | **90.12%** | **5.21 ms** | **191.9 FPS** | **8.5 MB** |
-| 🥉 **ResNet-50** | 91.93% | 0.8844 | 0.9236 | **95.56%** | 85.03% | 8.70 ms | 115.0 FPS | 89.7 MB |
+| **Soft-Voting Ensemble** | **93.92%** | **0.9211** | **0.9407** | **96.39%** | 89.67% | 11.08 ms | 90.3 FPS | 98.2 MB |
+| **MobileNetV2 (Balanced Subset)** | 93.10% | 0.9177 | 0.9321 | 95.07% | 90.12% | 5.21 ms | 191.9 FPS | 8.5 MB |
+| **ResNet-50 (Balanced Subset)** | 91.93% | 0.8844 | 0.9236 | 95.56% | 85.03% | 8.70 ms | 115.0 FPS | 89.7 MB |
 
-### 3. Per-Class Performance Breakdown (Soft-Voting Ensemble on Out-of-Sample Data)
+#### Per-Class Breakdown (Soft-Voting Ensemble on Out-of-Sample Data)
+
 | Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical Status |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Stem Bleeding** | 589 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Detection** |
@@ -118,11 +136,11 @@ To test true out-of-distribution robustness, models trained on balanced subsets 
 | **Gray Leaf Spot** | 1,692 | **0.9284** | 0.9504 | 0.9393 | Highly robust foliar detection |
 | **Leaf Rot** | 1,235 | **0.9785** | 0.8834 | 0.9285 | High precision on necrotic fronds |
 
-> **Key Agricultural Finding**: The Soft-Voting Ensemble achieved a **100% Recall on Bud Rot** (125 out of 125 field cases detected). In plant pathology, false negatives on Bud Rot cause total tree mortality; thus, prioritizing perfect recall while maintaining 93.92% overall accuracy provides an optimal clinical safety net.
+*Comparative Insight:* Moving from balanced-subset training (93.10% accuracy) to full-dataset Two-Stage Fine-Tuning with `WeightedRandomSampler` resolved the trade-off, boosting MobileNetV2 accuracy to **98.97%** and Macro F1 to **0.9916** on the full test distribution.
 
 ---
 
-## 🛠️ Project Directory Structure
+## Project Directory Structure
 
 ```text
 c:/Github/BTP/
@@ -151,7 +169,7 @@ c:/Github/BTP/
 
 ---
 
-## 🚀 Installation & Quickstart
+## Installation & Quickstart
 
 ### 1. Prerequisites & Environment Setup
 Clone the repository and create an isolated Python virtual environment:
@@ -182,9 +200,9 @@ python download_dataset.py
 
 ---
 
-## 💻 Usage & CLI Guide
+## Usage & CLI Guide
 
-### 🏋️ Training Models
+### Training Models
 
 #### Train MobileNetV2 with Two-Stage Fine-Tuning & Full Dataset Sampling:
 ```powershell
@@ -202,12 +220,13 @@ python train.py --model resnet50 --loss focal --epochs 25
 - `--epochs`: Total training epochs (default: `25`).
 - `--warmup_epochs`: Number of initial epochs with frozen backbone (default: `3`).
 - `--label_smoothing`: Label smoothing parameter (default: `0.1`).
+- `--patience`: Early stopping tolerance in epochs (default: `7`).
 - `--resplit`: Regenerates stratified train/val/test splits.
 - `--no_sampler`: Disables WeightedRandomSampler (uses standard shuffle).
 
 ---
 
-### 📊 Model Evaluation & Benchmarking
+### Model Evaluation & Benchmarking
 
 #### 1. Evaluate on the Standard Test Split:
 ```powershell
@@ -235,7 +254,7 @@ All evaluation runs automatically generate:
 
 ---
 
-### 🔍 Explainable AI (Grad-CAM Saliency Maps)
+### Explainable AI (Grad-CAM Saliency Maps)
 
 To visualize the exact lesion features influencing the CNN's decision:
 
@@ -254,7 +273,7 @@ Grad-CAM highlights:
 
 ---
 
-## ⚡ Hardware Efficiency & Deployment Feasibility
+## Hardware Efficiency & Deployment Feasibility
 
 | Deployment Target | Recommended Architecture | Latency | Frame Rate | Footprint | Power Profile |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -264,7 +283,7 @@ Grad-CAM highlights:
 
 ---
 
-## 📚 References & Academic Citations
+## References & Academic Citations
 
 1. **Dataset Source**: Thite, S., et al. (2023). *Multi-Class Coconut Tree Disease Dataset*. Kaggle.
 2. **Focal Loss**: Lin, T. Y., Goyal, P., Girshick, R., He, K., & Dollár, P. (2017). *Focal loss for dense object detection*. IEEE International Conference on Computer Vision (ICCV), 2980-2988.
@@ -274,6 +293,6 @@ Grad-CAM highlights:
 
 ---
 
-## 🎓 Acknowledgments
+## Acknowledgments
 
 We express our sincere gratitude to our project supervisor, faculty members, and the **Department of Computer Science and Engineering at IIIT Kottayam** for their guidance, computational infrastructure, and encouragement throughout our final year B.Tech Project.
