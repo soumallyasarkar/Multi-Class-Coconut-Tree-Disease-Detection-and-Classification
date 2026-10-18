@@ -36,6 +36,8 @@ venv.bak/
 # --- Large Datasets & Archives ---
 # Raw image directory contains 5,798 high-resolution photos
 data/raw/*
+data/coconut_dicease_dataset/*
+data/Coconut_Tree_Disease_Dataset.v3i.folder/
 !data/raw/.gitkeep
 
 # Archive downloads

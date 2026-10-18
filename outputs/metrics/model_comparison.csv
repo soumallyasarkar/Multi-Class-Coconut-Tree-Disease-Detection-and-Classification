@@ -1,3 +1,7 @@
-Model Architecture,Accuracy (%),Macro F1,Macro Recall,Macro Precision,Params (M),Size (MB),Latency (ms),FPS
-resnet50,94.65,0.9459,0.9465,0.948,23.52,89.72,8.69,115.0
-mobilenet_v2,93.24,0.9321,0.9324,0.9362,2.23,8.51,5.79,172.7
+Model Architecture,Accuracy (%),Macro F1,Weighted F1,Macro Recall,Macro Precision,Params (M),Size (MB),Latency (ms),FPS
+densenet121,99.66,0.9979,0.9966,0.9981,0.9976,6.96,26.55,116.71,8.6
+efficientnet_b0,99.43,0.9965,0.9943,0.9965,0.9964,4.01,15.31,26.18,38.2
+Soft-Voting Ensemble,99.31,0.9957,0.9931,0.9957,0.9957,38.95,148.6,183.31,5.5
+mobilenet_v2,98.97,0.9916,0.9897,0.9937,0.9896,2.23,8.51,64.35,15.5
+mobilenet_v2,94.05,0.9464,0.9401,0.9531,0.9432,2.23,8.51,33.81,29.6
+resnet50,93.14,0.9327,0.9312,0.9446,0.925,23.52,89.72,180.76,5.5

@@ -1,0 +1,59 @@
+{
+  "model_name": "soft_voting_ensemble",
+  "evaluation_split": "test",
+  "models_combined": [
+    "densenet121",
+    "efficientnet_b0",
+    "mobilenet_v2",
+    "mobilenet_v2",
+    "resnet50"
+  ],
+  "weights": {
+    "densenet121": 0.2,
+    "efficientnet_b0": 0.2,
+    "mobilenet_v2": 0.2,
+    "resnet50": 0.2
+  },
+  "sample_count": 874,
+  "total_params": 38951765,
+  "size_mb": 148.6,
+  "latency_ms": 183.31,
+  "fps": 5.5,
+  "accuracy": 0.9931,
+  "macro_precision": 0.9957,
+  "macro_recall": 0.9957,
+  "macro_f1": 0.9957,
+  "weighted_f1": 0.9931,
+  "per_class": {
+    "Bud Root Dropping": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 78
+    },
+    "Bud Rot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 71
+    },
+    "Gray Leaf Spot": {
+      "precision": 0.9907,
+      "recall": 0.9907,
+      "f1_score": 0.9907,
+      "support": 321
+    },
+    "Leaf Rot": {
+      "precision": 0.9881,
+      "recall": 0.9881,
+      "f1_score": 0.9881,
+      "support": 252
+    },
+    "Stem Bleeding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 152
+    }
+  }
+}

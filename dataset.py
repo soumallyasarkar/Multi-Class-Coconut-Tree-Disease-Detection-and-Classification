@@ -38,7 +38,6 @@ def get_transforms(split: str = "train") -> transforms.Compose:
 
     if split == "train":
         return transforms.Compose([
-            transforms.Resize((base_resize, base_resize)),
             transforms.RandomResizedCrop(config.IMAGE_SIZE, scale=(0.75, 1.0)),
             transforms.RandomHorizontalFlip(p=0.5),
             transforms.RandomVerticalFlip(p=0.2),
@@ -380,4 +379,114 @@ def get_remaining_loader(
         num_workers=num_workers,
         pin_memory=torch.cuda.is_available(),
     )
+
+
+# ====================================================================
+# 7. Roboflow / V3 Dataset Loader (13,836 Images across Train/Valid/Test)
+# ====================================================================
+
+def get_v3_dataloaders(
+    v3_dir: Path = config.DATA_DIR / "Coconut_Tree_Disease_Dataset.v3i.folder",
+    batch_size: int = config.BATCH_SIZE,
+    num_workers: int = config.NUM_WORKERS,
+    use_balanced_sampler: bool = True,
+) -> Tuple[DataLoader, DataLoader, DataLoader, Dict[str, int]]:
+    """
+    Parses and returns DataLoaders for the 13,836-image dataset:
+    - Train: 12,108 images (augmented with WeightedRandomSampler)
+    - Valid: 1,156 images
+    - Test: 572 images
+    """
+    splits_cache_dir = config.SPLIT_DATA_DIR
+    splits_cache_dir.mkdir(parents=True, exist_ok=True)
+    train_csv = splits_cache_dir / "train_v3.csv"
+    val_csv = splits_cache_dir / "val_v3.csv"
+    test_csv = splits_cache_dir / "test_v3.csv"
+
+    if train_csv.exists() and val_csv.exists() and test_csv.exists():
+        print(f"Loading cached V3 dataset splits from {splits_cache_dir}...")
+        train_df = pd.read_csv(train_csv)
+        val_df = pd.read_csv(val_csv)
+        test_df = pd.read_csv(test_csv)
+    else:
+        print(f"Parsing Roboflow V3 dataset from: {v3_dir}...")
+        prefix_map = [
+            ("BudRootDropping", 0, "Bud Root Dropping"),
+            ("BudRot", 1, "Bud Rot"),
+            ("GrayLeafSpot", 2, "Gray Leaf Spot"),
+            ("LeafRot", 3, "Leaf Rot"),
+            ("StemBleeding", 4, "Stem Bleeding"),
+        ]
+
+        def parse_split_df(split_name: str) -> pd.DataFrame:
+            s_dir = v3_dir / split_name
+            records = []
+            for img_path in s_dir.rglob("*"):
+                if img_path.suffix.lower() in [".jpg", ".jpeg", ".png"]:
+                    name = img_path.name
+                    for prefix, label, class_name in prefix_map:
+                        if name.startswith(prefix):
+                            records.append({
+                                "image_path": str(img_path.resolve()),
+                                "label": label,
+                                "class_name": class_name
+                            })
+                            break
+            return pd.DataFrame(records)
+
+        train_df = parse_split_df("train")
+        val_df = parse_split_df("valid")
+        test_df = parse_split_df("test")
+
+        train_df.to_csv(train_csv, index=False)
+        val_df.to_csv(val_csv, index=False)
+        test_df.to_csv(test_csv, index=False)
+        print(f"Cached V3 dataset splits to: {splits_cache_dir}")
+
+    train_dataset = CoconutDataset(train_df, transform=get_transforms("train"))
+    val_dataset = CoconutDataset(val_df, transform=get_transforms("val"))
+    test_dataset = CoconutDataset(test_df, transform=get_transforms("test"))
+
+    print(f"\nV3 Dataset Summary:")
+    print(f"  Train: {len(train_dataset)} images")
+    print(f"  Val:   {len(val_dataset)} images")
+    print(f"  Test:  {len(test_dataset)} images")
+
+    if use_balanced_sampler:
+        sampler = create_balanced_sampler(train_dataset)
+        train_loader = DataLoader(
+            train_dataset,
+            batch_size=batch_size,
+            sampler=sampler,
+            num_workers=num_workers,
+            pin_memory=torch.cuda.is_available(),
+        )
+    else:
+        train_loader = DataLoader(
+            train_dataset,
+            batch_size=batch_size,
+            shuffle=True,
+            num_workers=num_workers,
+            pin_memory=torch.cuda.is_available(),
+        )
+
+    val_loader = DataLoader(
+        val_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        pin_memory=torch.cuda.is_available(),
+    )
+
+    test_loader = DataLoader(
+        test_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        pin_memory=torch.cuda.is_available(),
+    )
+
+    train_class_counts = train_dataset.get_class_counts()
+    return train_loader, val_loader, test_loader, train_class_counts
+
 

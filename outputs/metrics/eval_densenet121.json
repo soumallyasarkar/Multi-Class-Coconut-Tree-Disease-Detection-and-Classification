@@ -1,0 +1,46 @@
+{
+  "model_name": "densenet121",
+  "evaluation_split": "test",
+  "sample_count": 874,
+  "total_params": 6958981,
+  "size_mb": 26.55,
+  "latency_ms": 116.71,
+  "fps": 8.6,
+  "accuracy": 0.9966,
+  "macro_precision": 0.9976,
+  "macro_recall": 0.9981,
+  "macro_f1": 0.9979,
+  "weighted_f1": 0.9966,
+  "per_class": {
+    "Bud Root Dropping": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 78
+    },
+    "Bud Rot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 71
+    },
+    "Gray Leaf Spot": {
+      "precision": 1.0,
+      "recall": 0.9907,
+      "f1_score": 0.9953,
+      "support": 321
+    },
+    "Leaf Rot": {
+      "precision": 0.9882,
+      "recall": 1.0,
+      "f1_score": 0.9941,
+      "support": 252
+    },
+    "Stem Bleeding": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 152
+    }
+  }
+}

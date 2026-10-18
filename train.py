@@ -152,25 +152,37 @@ def run_training(
     patience: int = 7,
     warmup_epochs: int = config.WARMUP_EPOCHS,
     label_smoothing: float = config.LABEL_SMOOTHING,
+    resume: bool = False,
+    dataset_type: str = "default",
 ):
     print("=" * 70)
     print("=== COCONUT TREE DISEASE CLASSIFICATION & DETECTION ===")
-    print(f"Model: {model_name} | Loss: {loss_type} (Smoothing: {label_smoothing})")
-    print(f"Device: {config.DEVICE} | Image Size: {config.IMAGE_SIZE} | Epochs: {epochs} | Batch Size: {batch_size}")
-    print(f"Balanced Sampler: {use_balanced_sampler} | Warmup Epochs: {warmup_epochs} | Early Stop Patience: {patience}")
-    if samples_per_class:
-        print(f"Dataset Balancing: Active (Capped at {samples_per_class} images/class)")
+    print(f"Model: {model_name} | Dataset: {dataset_type.upper()} | Loss: {loss_type} (Smoothing: {label_smoothing})")
+    if config.DEVICE == "cuda" and torch.cuda.is_available():
+        gpu_name = torch.cuda.get_device_name(0)
+        gpu_mem = torch.cuda.get_device_properties(0).total_memory / (1024**3)
+        print(f"Hardware Acceleration: CUDA ACTIVE (GPU: {gpu_name} | VRAM: {gpu_mem:.1f} GB)")
     else:
-        print("Dataset Balancing: Full Dataset (All 5,798 images utilizing WeightedRandomSampler)")
+        print("Hardware Acceleration: CPU ONLY (CUDA not detected)")
+    print(f"Image Size: {config.IMAGE_SIZE} | Epochs: {epochs} | Batch Size: {batch_size}")
+    print(f"Balanced Sampler: {use_balanced_sampler} | Warmup Epochs: {warmup_epochs} | Early Stop Patience: {patience}")
     print("=" * 70)
 
     # 1. DataLoaders & Class Imbalance Profiling
-    train_loader, val_loader, test_loader, train_counts = dataset.get_dataloaders(
-        batch_size=batch_size,
-        use_balanced_sampler=use_balanced_sampler,
-        force_resplit=force_resplit,
-        max_samples_per_class=samples_per_class,
-    )
+    if dataset_type == "v3":
+        print("[Dataset Mode] Training on Roboflow V3 (13,836 images across Train/Valid/Test)...")
+        train_loader, val_loader, test_loader, train_counts = dataset.get_v3_dataloaders(
+            batch_size=batch_size,
+            use_balanced_sampler=use_balanced_sampler,
+        )
+    else:
+        train_loader, val_loader, test_loader, train_counts = dataset.get_dataloaders(
+            batch_size=batch_size,
+            use_balanced_sampler=use_balanced_sampler,
+            force_resplit=force_resplit,
+            max_samples_per_class=samples_per_class,
+        )
+
     print("\nTraining Split Class Counts:")
     for cls_name, count in train_counts.items():
         print(f"  - {cls_name:20s}: {count:5d} images")
@@ -195,10 +207,29 @@ def run_training(
         freeze_backbone=freeze_backbone,
         dropout=dropout,
     )
+
+    # Resume from existing checkpoint if requested
+    if resume:
+        checkpoint_file = config.CHECKPOINT_DIR / f"best_{model_name}.pth"
+        if checkpoint_file.exists():
+            import shutil
+            backup_file = config.CHECKPOINT_DIR / f"best_{model_name}_pre_v3.pth"
+            if not backup_file.exists():
+                shutil.copy2(checkpoint_file, backup_file)
+                print(f"[Backup] Saved original checkpoint to: {backup_file.name}")
+            ckpt = torch.load(checkpoint_file, map_location=config.DEVICE, weights_only=False)
+            state_dict = ckpt["model_state_dict"] if isinstance(ckpt, dict) and "model_state_dict" in ckpt else ckpt
+            model.load_state_dict(state_dict)
+            print(f"[Resume Active] Loaded existing trained weights from {checkpoint_file.name}!")
+            warmup_epochs = 0  # Head is already trained; skip warmup
+        else:
+            print(f"[Resume Warning] Checkpoint {checkpoint_file} not found. Training from ImageNet weights.")
+
     model = model.to(config.DEVICE)
     model_info = models.get_model_summary(model)
     print(f"\nArchitecture: {model_name}")
     print(f"  Total Parameters: {model_info['total_params']:,} | Trainable: {model_info['trainable_params']:,} | Model Size: {model_info['size_mb']} MB")
+
 
     # 4. Two-Stage Optimizer & LR Scheduler Setup
     use_two_stage = (warmup_epochs > 0 and not freeze_backbone)
@@ -352,6 +383,10 @@ if __name__ == "__main__":
                         help="Head warmup epochs before unfreezing backbone")
     parser.add_argument("--label_smoothing", type=float, default=config.LABEL_SMOOTHING,
                         help="Label smoothing factor (default: 0.1)")
+    parser.add_argument("--resume", action="store_true",
+                        help="Resume and fine-tune from existing checkpoint in outputs/checkpoints/")
+    parser.add_argument("--dataset", type=str, default="default", choices=["default", "v3"],
+                        help="Dataset source: 'default' (original 5,798 images) or 'v3' (Roboflow 13,836 images)")
 
     args = parser.parse_args()
 
@@ -370,4 +405,6 @@ if __name__ == "__main__":
         samples_per_class=args.samples_per_class,
         warmup_epochs=args.warmup_epochs,
         label_smoothing=args.label_smoothing,
-    )
+        resume=args.resume,
+        dataset_type=args.dataset,
+    )

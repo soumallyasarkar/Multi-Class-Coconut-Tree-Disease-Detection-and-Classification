@@ -103,6 +103,10 @@ def build_model(
     return model
 
 
+# Alias for compatibility across evaluation scripts
+get_model = build_model
+
+
 def get_model_summary(model: nn.Module) -> Dict[str, Union[int, float]]:
     """
     Returns parameter counts and estimated model memory footprint in MB.

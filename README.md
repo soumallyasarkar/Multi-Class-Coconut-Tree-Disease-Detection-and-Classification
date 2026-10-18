@@ -161,6 +161,11 @@ c:/Github/BTP/
 │   ├── raw/                  # Full raw dataset organized by class subfolders
 │   └── splits/               # Generated stratified CSV splits (train.csv, val.csv, test.csv)
 │
+├── myDoc/
+│   ├── data_imbalance_mitigation.md       # Methodological framework & math for overcoming severe class imbalance
+│   ├── train_explanation.md               # Training pipeline architecture & code walkthrough
+│   └── project_progress_and_current_status.md # Cumulative project milestones, status & results
+│
 └── outputs/
     ├── checkpoints/          # Saved model weights (*.pth) for all architectures
     ├── metrics/              # JSON metrics logs and comparative CSV leaderboards
