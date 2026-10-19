@@ -3,27 +3,13 @@
 # Multi-Class Coconut Tree Disease Detection & Classification
 # ====================================================================
 
-# --- Python Bytecode & Runtime Cache ---
+
+# --- Python Bytecode & Cache ---
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+.pytest_cache/
 
 # --- Python Virtual Environments ---
 .venv/
@@ -91,7 +77,10 @@ desktop.ini
 scratch/
 .system_generated/
 
-# --- Documentation & Working Notes ---
-# myDoc/ is now tracked for project reports and figures
+# --- Documentation, Generated Caches & Scratch ---
 outputs/plots/report/extracted_ref/
 outputs/experiments/*.npz
+outputs/reports/*.pdf
+!outputs/reports/.gitkeep
+myDoc/*.html
+

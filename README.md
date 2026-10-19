@@ -1,12 +1,14 @@
-# Automated Multi-Class Coconut Tree Disease Detection, Diagnosis & Symptom Localization Using Deep Learning and Explainable AI (XAI)
+# CocoGuard: Automated Multi-Class Coconut Tree Disease Detection, Out-of-Distribution Robustness & Explainable AI (XAI)
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5%20CUDA%2012.1-EE4C2C.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-98.97%25%20(MobileNetV2)-success.svg)](#experimental-results--benchmark-leaderboard)
-[![Edge Ready](https://img.shields.io/badge/Edge%20Inference-203.3%20FPS%20(8.5MB)-brightgreen.svg)](#hardware-efficiency--deployment-feasibility)
+[![Clean Zero-Shot Acc](https://img.shields.io/badge/Zero--Shot%20Acc-92.82%25%20(EfficientNet--B0)-success.svg)](#1-zero-shot-cross-plantation-benchmark-13836-unseen-field-images)
+[![Edge Efficiency](https://img.shields.io/badge/Edge%20Inference-203.3%20FPS%20(8.5MB)-brightgreen.svg)](#hardware-efficiency--deployment-feasibility)
+[![Selective Accuracy](https://img.shields.io/badge/Selective%20Acc%20@%2080%25-97.90%25-blueviolet.svg)](#3-probabilistic-calibration--uncertainty-rejection-selective-classification)
+[![PDF Report](https://img.shields.io/badge/Publication%20Report-PDF%20Available-red.svg)](myDoc/CocoGuard_Research_Report.pdf)
 
-**B.Tech Final Year Project (BTP)**  
+**Final Year B.Tech Capstone Project (BTP)**  
 *Department of Computer Science and Engineering*  
 **Indian Institute of Information Technology Kottayam (IIIT Kottayam)**
 
@@ -14,290 +16,278 @@
 
 ## Project Team Members
 
-| Name | Roll Number | Email / GitHub |
+| Name | Roll Number | Institutional Email |
 | :--- | :---: | :---: |
 | **Ansh Singh** | `2023BCS0120` | [2023bcs0120@iiitkottayam.ac.in](mailto:2023bcs0120@iiitkottayam.ac.in) |
 | **Lakshmi Harshitha Cheedella** | `2023BCS0069` | [2023bcs0069@iiitkottayam.ac.in](mailto:2023bcs0069@iiitkottayam.ac.in) |
-| **Soumalya Sarkar** | `2023BCS0172` | [2023bcs0172@iiitkottayam.ac.in](mailto:2023bcs0172@iiitkottayam.ac.in) |
+| **Soumallya Sarkar** | `2023BCS0172` | [2023bcs0172@iiitkottayam.ac.in](mailto:2023bcs0172@iiitkottayam.ac.in) |
 | **Chennupati Bhargav** | `2023BCS0219` | [2023bcs0219@iiitkottayam.ac.in](mailto:2023bcs0219@iiitkottayam.ac.in) |
 
 ---
 
-## Executive Summary & Abstract
+## 📚 Documentation & Research Report Hub
 
-Coconut palm (*Cocos nucifera*) is an indispensable plantation crop vital to the agrarian economies of tropical and coastal regions worldwide. However, plantations suffer devastating economic losses from infectious fungal, bacterial, and physiological pathologies. In particular, **Bud Rot** (*Phytophthora palmivora*) causes complete vascular collapse and irreversible tree mortality within weeks if unmanaged.
+All detailed research findings, mathematical derivations, presentation materials, and technical guides are organized in the [`myDoc/`](myDoc/) directory:
 
-Conventional disease diagnosis relies on manual visual inspection by experienced arborists, a method constrained by:
-1. Hazardous canopy heights (15–30 meters).
-2. Human fatigue and visual subjectivity.
-3. Fine-grained visual overlap (e.g., distinguishing **Leaf Rot** from **Gray Leaf Spot** necrotic lesions).
-4. Severe natural class imbalance across field conditions.
+| Document / Report | Description | Direct Link |
+| :--- | :--- | :---: |
+| 📄 **CocoGuard Comprehensive Research Report** | **Master empirical report:** 6 sections covering all 4 architectures, the 13,836-image field benchmark, 12 corruptions, sink class dynamics, selective classification ($97.9\%$ @ 80% coverage), and Grad-CAM stability. | [**Read Report (.md)**](myDoc/CocoGuard_Comprehensive_Research_Report.md) |
+| 📑 **CocoGuard Publication PDF Report** | **Official academic PDF document (8 pages):** Formatted with running headers, light-blue shaded tables, callout cards, and all 9 authentic model-generated figures. | [**Download PDF (11.9 MB)**](myDoc/CocoGuard_Research_Report.pdf) |
+| 📝 **Notes on Models & Grad-CAM** | Concise technical report structured alongside the PDF exhibits for fast reference and code mapping. | [**View Notes (.md)**](myDoc/research_report_models_and_gradcam.md) |
+| 📊 **BTP Presentation Context** | Curated context document designed specifically for generating PowerPoint / Google Slides presentations for project reviews and seminars. | [**View Context (.md)**](myDoc/presentation_context_btp.md) |
+| ⚖️ **Data Imbalance Mitigation Manifesto** | Mathematical formulation and PyTorch implementation of `WeightedRandomSampler` and cost-sensitive loss for overcoming the 4.5:1 class imbalance. | [**View Manifesto (.md)**](myDoc/data_imbalance_mitigation.md) |
+| ⚙️ **Two-Stage Training Walkthrough** | Deep-dive into Stage 1 linear head warmup, Stage 2 differential learning rates, Cosine Annealing, and regularizers. | [**View Walkthrough (.md)**](myDoc/train_explanation.md) |
+| 📈 **Project Milestones & Status** | Historical development tracking, phase completion records, and technical transition notes. | [**View Milestones (.md)**](myDoc/project_progress_and_current_status.md) \| [**Progress Notes (.md)**](myDoc/progress.md) |
 
-This project implements an end-to-end, high-performance deep learning framework for **automated multi-class coconut tree disease classification and symptom localization**. Leveraging pre-trained convolutional neural backbones (MobileNetV2, ResNet-50, EfficientNet-B0), imbalance-mitigating sampling techniques (WeightedRandomSampler, Cost-Sensitive Weighted Cross-Entropy, Focal Loss), and a **Two-Stage Fine-Tuning Pipeline**, the optimized system achieves **98.97% overall test accuracy**, a **0.9916 Macro F1-Score**, and **100% recall on fatal Bud Rot** on unseen field imagery at **203.3 FPS**. Furthermore, **Grad-CAM (Gradient-Weighted Class Activation Mapping)** is integrated to deliver visual interpretability, allowing agronomists to audit the exact symptom regions that drive the model's predictions.
-
----
-
-## Key Features & Technical Highlights
-
-- **Multi-Class Disease Coverage**: Classifies all 5 major coconut palm conditions:
-  - `Bud Root Dropping` (Premature fruitlet and button shedding)
-  - `Bud Rot` (Fatal meristematic heart rot caused by *Phytophthora*)
-  - `Gray Leaf Spot` (*Pestalotiopsis palmarum* foliar blight)
-  - `Leaf Rot` (Foliar collapse and flaccid leaflet decay)
-  - `Stem Bleeding` (*Ceratocystis paradoxa* dark trunk exudate)
-- **Class Imbalance Mitigation**:
-  - Implements `WeightedRandomSampler` to guarantee equal class representation (20% per category) in every mini-batch.
-  - Supports **Cost-Sensitive Weighted Cross-Entropy** with inverse-frequency penalties and **Focal Loss** ($\gamma = 2.0$) to prioritize hard minority samples.
-  - Stratified partitioning ensuring consistent evaluation without minority depletion.
-- **Two-Stage Fine-Tuning Pipeline**:
-  - **Stage 1 (Warmup)**: Classification head warmup with frozen convolutional backbones to preserve ImageNet representations.
-  - **Stage 2 (Full Fine-Tuning)**: End-to-end adaptation with differential learning rates (Backbone $\text{LR} = 10^{-5}$, Head $\text{LR} = 10^{-4}$) and Cosine Annealing decay.
-- **Regularization & Augmentation**:
-  - Employs **RandomErasing** and photometric jittering to prevent over-indexing on localized frond artifacts.
-  - Integrates **Label Smoothing ($0.1$)** to calibrate prediction confidence on visually ambiguous foliar necrosis patterns.
-- **Explainable AI (XAI)**:
-  - Generates high-resolution **Grad-CAM** heatmaps overlaid on input imagery, highlighting pathological lesion boundaries for transparent clinical validation.
-- **Edge Deployment Ready**:
-  - MobileNetV2 delivers **203.3 FPS (4.92 ms)** with an ultra-compact **8.51 MB** footprint, enabling real-time deployment on drones, Raspberry Pi, and Android edge devices.
 
 ---
 
-## Dataset Distribution & Architecture
+## Executive Summary & Research Scope
 
-The benchmark dataset comprises **5,798 field images** across all five disease classes:
+Coconut palm (*Cocos nucifera*) plantations are vital to tropical agricultural economies, but suffer devastating yield losses from lethal pathologies—especially **Bud Rot** (*Phytophthora palmivora*), which destroys the apical bud and causes tree death within weeks if untreated.
 
-| Class Label | Description / Pathology | Total Images | Natural % | Imbalance Status |
-| :--- | :--- | :---: | :---: | :---: |
-| **Gray Leaf Spot** | Elliptical lesions with grayish centers and dark borders | 2,135 | 36.8% | Majority |
-| **Leaf Rot** | Blackening, rotting, and distal shriveling of leaflets | 1,673 | 28.9% | Majority |
-| **Stem Bleeding** | Dark reddish-brown exudation oozing from trunk cracks | 1,006 | 17.3% | Moderate |
-| **Bud Root Dropping** | Premature button and immature nut detachment | 514 | 8.9% | Minority |
-| **Bud Rot** | Heart rot of the apical bud, leading to crown collapse | 470 | 8.1% | **Critical Minority** |
-| **Total** | | **5,798** | **100.0%** | **4.5 : 1 Ratio** |
+While deep neural networks achieve high accuracy on standard test sets, deploying computer vision in agriculture exposes severe domain shifts: **variable sunlight, lens blur from tree swaying, cellular JPEG compression, and label confusion between foliar necrosis diseases**.
 
-### Stratified Dataset Partition (Latest Training Pipeline)
+This repository implements **CocoGuard**, a comprehensive deep learning framework evaluating four distinct vision backbones:
+1. [MobileNetV2](src/models.py): Inverted residuals and linear bottlenecks (ultra-efficient for edge/mobile devices).
+2. [ResNet50](src/models.py): Standard deep residual baseline with identity shortcuts.
+3. [EfficientNet-B0](src/models.py): Compound-scaled depth, width, and resolution architecture.
+4. [DenseNet-121](src/models.py): Dense cross-layer connectivity with direct feature concatenation.
 
-To ensure rigorous evaluation without data leakage or minority class starvation, the complete dataset of 5,798 images is partitioned using stratified sampling (70% Train, 15% Validation, 15% Test):
-
-| Disease Class | Total Images | Training Split (70%) | Validation Split (15%) | Test Split (15%) | Loss Penalty Weight ($w_c$) |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **Gray Leaf Spot** | 2,135 | 1,494 | 320 | 321 | 0.543 |
-| **Leaf Rot** | 1,673 | 1,171 | 250 | 252 | 0.693 |
-| **Stem Bleeding** | 1,006 | 704 | 150 | 152 | 1.153 |
-| **Bud Root Dropping** | 514 | 359 | 77 | 78 | 2.260 |
-| **Bud Rot** (Critical Minority) | 470 | 329 | 70 | 71 | 2.466 |
-| **Total** | **5,798** | **4,057** | **867** | **874** | -- |
+All models were trained strictly on a standardized 5,798-image dataset and then subjected to a **Zero-Shot Cross-Plantation Stress-Test across 13,836 unseen field images**, evaluating out-of-distribution robustness across 12 corruption conditions, post-hoc calibration, selective classification, and visual interpretability via **Grad-CAM**.
 
 ---
 
-## Experimental Results & Benchmark Leaderboard
+## Key Experimental Results & Discoveries
 
-### 1. State-of-the-Art Test Benchmark (Full Dataset, N = 874 Test Images)
+### 1. Zero-Shot Cross-Plantation Benchmark (13,836 Unseen Field Images)
 
-Following Two-Stage Fine-Tuning (classification head warmup + differential learning rates), $256 \times 256$ multi-scale augmentations with RandomErasing, and Label Smoothing ($0.1$), the optimized **MobileNetV2** established a new state-of-the-art on the test split:
+Models were evaluated directly on 13,836 images from an independent field dataset without plantation-specific fine-tuning:
 
-| Model Architecture | Test Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **MobileNetV2 (Two-Stage + Full Data)** | **98.97%** | **0.9916** | **0.9897** | **99.37%** | **98.96%** | **4.92 ms** | **203.3 FPS** | **8.51 MB** |
-| **ResNet-50 (Baseline)** | 94.65% | 0.9459 | 0.9465 | 0.9465 | 0.9480 | 8.69 ms | 115.0 FPS | 89.72 MB |
-| **Soft-Voting Ensemble** | 93.92% | 0.9211 | 0.9407 | 96.39% | 89.67% | 11.08 ms | 90.3 FPS | 98.23 MB |
+| Evaluation Metric | MobileNetV2 | ResNet50 | EfficientNet-B0 | DenseNet-121 |
+| :--- | :---: | :---: | :---: | :---: |
+| **Model Size (.pth)** | **8.51 MB** 🥇 | 89.72 MB | 15.31 MB 🥈 | 26.55 MB |
+| **Parameter Count** | **2.23 M** 🥇 | 23.52 M | 4.01 M 🥈 | 6.96 M |
+| **Clean Accuracy (13,836 Imgs)** | **88.35%** | 81.27% | **92.82%** 🥇 | **89.95%** 🥈 |
+| **Clean Macro-F1 (95% Bootstrap CI)** | **0.8844** `[0.879, 0.890]` | **0.8089** `[0.801, 0.816]` | **0.9328** `[0.928, 0.937]` 🥇 | **0.9050** `[0.900, 0.910]` 🥈 |
+| **Diagnostic Errors (of 13,836)** | 1,612 errors | 2,591 errors | **994 errors** 🥇 | 1,390 errors 🥈 |
+| **Clean Expected Calibration Error (ECE)** | **0.1607** 🥇 | 0.2494 | 0.2042 | **0.1633** 🥈 |
+| **Multi-Class Brier Score** | 0.2147 | 0.3579 | **0.1757** 🥇 | 0.1899 🥈 |
 
-#### Per-Class Diagnostic Breakdown (MobileNetV2 — 874 Test Images)
-
-| Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical & Pathology Status |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Bud Root Dropping** | 78 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Precision & Recall** |
-| **Bud Rot** | 71 | **0.9726** | **1.0000** | **0.9861** | **Zero Missed Infections (71/71 caught)** |
-| **Stem Bleeding** | 152 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Precision & Recall** |
-| **Gray Leaf Spot** | 321 | **0.9875** | **0.9844** | **0.9860** | Highly robust on complex foliar lesions |
-| **Leaf Rot** | 252 | **0.9880** | **0.9841** | **0.9861** | High discrimination against necrosis overlap |
-
-> **Critical Agronomic Finding**: MobileNetV2 achieved a **100.0% Recall on the fatal Bud Rot pathology** (71 out of 71 infected test palms correctly detected with zero false negatives). Detecting 100% of fatal heart rot cases while sustaining **98.97% overall accuracy** at **203 FPS** establishes an ultra-reliable, edge-deployable solution for field inspection.
+* **Pathological Asymmetry:** **Stem Bleeding** (trunk pathology) achieved near-perfect accuracy across all architectures (e.g., 2,406 / 2,420 correct on EfficientNet-B0, $99.4\%$). In contrast, over $72\%$ of all diagnostic confusion occurred mutually between **Gray Leaf Spot** and **Leaf Rot**, which share overlapping foliar necrotic symptoms.
 
 ---
 
-### 2. Ablation & Out-of-Sample Evaluation (Balanced-Subset Training, N = 3,781 Images)
+### 2. Robustness Under Environmental Noise (12 Corruptions)
 
-In preliminary development phases, models were trained under strict undersampling (capping each class to 470 samples, total 2,350 images) and stress-tested against the remaining **3,781 uncurated field images** to assess out-of-sample generalization:
+Images were perturbed across 4 corruption families at 3 severity levels:
+- **Gaussian Defocus Blur** ($\sigma \in \{1.0, 2.0, 4.0\}$)
+- **Extreme Darkness** ($0.8\times, 0.5\times, 0.2\times$)
+- **Extreme Brightness / Glare** ($1.2\times, 1.8\times, 2.2\times$)
+- **Cellular Compression (JPEG)** ($Q \in \{50, 20, 5\}$)
 
-| Model Architecture | Accuracy (%) | Macro F1 | Weighted F1 | Macro Recall | Macro Precision | Latency | Throughput | Model Size |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Soft-Voting Ensemble** | **93.92%** | **0.9211** | **0.9407** | **96.39%** | 89.67% | 11.08 ms | 90.3 FPS | 98.2 MB |
-| **MobileNetV2 (Balanced Subset)** | 93.10% | 0.9177 | 0.9321 | 95.07% | 90.12% | 5.21 ms | 191.9 FPS | 8.5 MB |
-| **ResNet-50 (Balanced Subset)** | 91.93% | 0.8844 | 0.9236 | 95.56% | 85.03% | 8.70 ms | 115.0 FPS | 89.7 MB |
+| Stress Regime | MobileNetV2 | ResNet50 | EfficientNet-B0 | DenseNet-121 |
+| :--- | :---: | :---: | :---: | :---: |
+| **Clean Baseline** | 0.8844 | 0.8089 | **0.9328** | 0.9050 |
+| **Blur 1 / Blur 2 / Blur 3** | 0.882 / 0.868 / 0.817 | 0.805 / 0.813 / 0.780 | 0.930 / 0.912 / 0.821 | **0.910 / 0.908 / 0.864** 🥇 |
+| **Dark 1 / Dark 2 / Dark 3** | 0.878 / 0.891 / **0.881** 🥇 | 0.809 / 0.822 / 0.757 | **0.928 / 0.914** / 0.770 | 0.907 / 0.907 / 0.857 |
+| **Bright 1 / Bright 2 / Bright 3** | 0.888 / 0.859 / 0.830 | 0.803 / 0.754 / 0.720 | **0.935 / 0.915 / 0.890** 🥇 | 0.901 / 0.874 / 0.844 |
+| **JPEG 1 / JPEG 2 / JPEG 3** | 0.874 / 0.862 / 0.770 | 0.814 / 0.806 / 0.786 | **0.934 / 0.926 / 0.834** | 0.900 / 0.902 / **0.878** 🥇 |
+| **Mean Robustness (12 Conditions)** | **0.8582** | 0.7890 | **0.8924** 🥇 | **0.8875** 🥈 |
 
-#### Per-Class Breakdown (Soft-Voting Ensemble on Out-of-Sample Data)
-
-| Disease Class | Support (Images) | Precision | Recall | F1-Score | Clinical Status |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Stem Bleeding** | 589 | **1.0000** | **1.0000** | **1.0000** | **100% Perfect Detection** |
-| **Bud Root Dropping** | 140 | 0.9517 | **0.9857** | **0.9684** | Exceptional sensitivity |
-| **Bud Rot** | 125 | 0.6250 | **1.0000** | 0.7692 | **Zero Missed Cases (125/125 caught)** |
-| **Gray Leaf Spot** | 1,692 | **0.9284** | 0.9504 | 0.9393 | Highly robust foliar detection |
-| **Leaf Rot** | 1,235 | **0.9785** | 0.8834 | 0.9285 | High precision on necrotic fronds |
-
-*Comparative Insight:* Moving from balanced-subset training (93.10% accuracy) to full-dataset Two-Stage Fine-Tuning with `WeightedRandomSampler` resolved the trade-off, boosting MobileNetV2 accuracy to **98.97%** and Macro F1 to **0.9916** on the full test distribution.
+* **Cliff vs. Slope:** Performance remains remarkably stable under lighting and JPEG noise (gentle slope), but experiences a sharp non-linear drop under heavy blur (cliff). **DenseNet-121 is the most resilient under severe blur ($0.8638$ Macro-F1)** due to dense feature reuse.
+* **The "Sink Class" Discovery:** Under heavy blur ($\sigma = 4.0$), predictions do not become random; they collapse into majority foliar attractors (**Gray Leaf Spot absorbs 45%–50% of all predictions**). The sink class is an architectural artifact, not an inherent disease trait.
 
 ---
 
-## Project Directory Structure
+### 3. Probabilistic Calibration & Uncertainty Rejection (Selective Classification)
+
+In field deployment, prompting a farmer to *"Retake Photo"* when confidence is low prevents costly agricultural misdiagnoses:
+
+| Coverage Threshold | MobileNetV2 Accuracy | ResNet50 Accuracy | EfficientNet-B0 Accuracy | DenseNet-121 Accuracy |
+| :--- | :---: | :---: | :---: | :---: |
+| **100% Coverage (All images)** | 88.35% | 81.27% | **92.82%** | 89.95% |
+| **90% Coverage (Reject bottom 10%)** | 92.40% | 86.15% | **95.60%** | 93.80% |
+| **80% Coverage (Reject bottom 20%)** | **95.80%** | 90.45% | **97.90%** 🥇 | **96.50%** 🥈 |
+| **60% Coverage** | 98.40% | 95.10% | **99.40%** | 98.90% |
+| **50% Coverage (High Confidence Only)** | **99.20%** | 97.60% | **99.85%** 🥇 | **99.60%** 🥈 |
+
+* **The 80% Sweet Spot:** Rejecting the 20% most uncertain samples pushes **EfficientNet-B0 to 97.90% accuracy** and **DenseNet-121 to 96.50%**.
+
+---
+
+### 4. Explainable AI (Grad-CAM Saliency & Stability)
+
+Grad-CAM was evaluated to ensure models make decisions using true pathological symptoms rather than background soil, grass, or sky:
+* **Visual Saliency:** Across all 5 categories, heatmaps accurately isolate the central growing bud for *Bud Rot*, nut attachment joints for *Bud Root Dropping*, and weeping trunk bark fissures for *Stem Bleeding*.
+* **Attention Stability:** Under progressive noise, **DenseNet-121 retains the highest visual attention stability (mean Pearson $r = 0.7641$)**, followed by MobileNetV2 ($r = 0.6866$).
+* **Failure Detection:** Using Grad-CAM geometric flip-consistency to identify misclassifications yields only $\text{AUROC} \approx 0.45\text{--}0.65$, whereas maximum softmax confidence ($\max p_i$) achieves $\text{AUROC} \approx 0.81\text{--}0.90$.
+
+---
+
+## Diagnostic Figures Gallery
+
+All figures are automatically generated by the empirical evaluation suite into [`outputs/plots/report/`](outputs/plots/report/):
+
+| Figure | Description | File Path |
+| :---: | :--- | :--- |
+| **Figure 1** | Clean Confusion Matrices across all 4 candidate models | [`outputs/plots/report/fig1_clean_confusion_matrices.png`](outputs/plots/report/fig1_clean_confusion_matrices.png) |
+| **Figure 2** | Macro-F1 Robustness Curves across 12 corruption conditions | [`outputs/plots/report/fig2_robustness_curves.png`](outputs/plots/report/fig2_robustness_curves.png) |
+| **Figure 3** | Side-by-side Confusion Matrices under severe `blur_3` and `jpeg_3` | [`outputs/plots/report/fig3_confusion_matrices_corruptions.png`](outputs/plots/report/fig3_confusion_matrices_corruptions.png) |
+| **Figure 4** | Per-Class Recall Drop Heatmap under Severity 3 Noise | [`outputs/plots/report/fig4_vulnerability_heatmap.png`](outputs/plots/report/fig4_vulnerability_heatmap.png) |
+| **Figure 5** | Accuracy on Answered Images vs. Coverage across 4 severe corruptions | [`outputs/plots/report/fig5_coverage_corruptions.png`](outputs/plots/report/fig5_coverage_corruptions.png) |
+| **Figure 6** | Reliability Diagrams (Raw Softmax vs. $T_{\text{mixed}}$ Calibration) | [`outputs/plots/report/fig6_reliability_diagrams.png`](outputs/plots/report/fig6_reliability_diagrams.png) |
+| **Figure 7** | Grad-CAM Attention Stability Bar Chart under Corruptions | [`outputs/plots/report/fig7_cam_stability_bars.png`](outputs/plots/report/fig7_cam_stability_bars.png) |
+| **Figure 8** | Multi-Model Clean Grad-CAM Visual Heatmap Grid across all 5 classes | [`outputs/plots/report/fig8_clean_cam_grid.png`](outputs/plots/report/fig8_clean_cam_grid.png) |
+| **Figure 9** | Progressive Visual Noise Breakdown on Palm Trunk (`Clean` $\to$ `Dark 3`) | [`outputs/plots/report/fig9_cam_corruption_breakdown.png`](outputs/plots/report/fig9_cam_corruption_breakdown.png) |
+
+---
+
+## Recommended Deployment Pipeline
+
+Based on the empirical findings, we recommend the following 4-stage agricultural diagnosis pipeline:
+
+```mermaid
+graph TD
+    A["Farmer Photo (Smartphone / Drone)"] --> B["Stage 1: Hardware Pre-Filter (Blur & Exposure Check)"]
+    B -->|Blur Detected: Var < 100| C["User Prompt: 'Image too blurry, please retake'"]
+    B -->|Passed Optical Gate| D["Stage 2: Neural Inference Engine"]
+    D -->|Mobile / Edge (Offline)| E["MobileNetV2 (8.5 MB, 2.23M params, 88.35% Acc)"]
+    D -->|Cloud / Server (Online)| F["EfficientNet-B0 (92.82% Acc) or DenseNet-121"]
+    E --> G["Stage 3: Confidence Gating"]
+    F --> G
+    G -->|Max Softmax < 0.70| H["Flag as 'Uncertain: Agronomist Review Recommended'"]
+    G -->|Max Softmax >= 0.70| I["Stage 4: Diagnosis & Grad-CAM Visual Overlay"]
+    I --> J["Farmer UI with Saliency Heatmap"]
+```
+
+---
+
+## Streamlined Repository Structure
 
 ```text
-c:/Github/BTP/
+c:/Github/BTP/Multi-Class-Coconut-Tree-Disease-Detection-and-Classification/
 │
-├── config.py                 # Centralized configuration, hyperparams, class definitions, and paths
-├── dataset.py                # PyTorch Dataset, stratified split generation, and WeightedRandomSampler
-├── models.py                 # Neural backbones factory (ResNet50, MobileNetV2, EfficientNet, DenseNet)
-├── loss.py                   # Cost-sensitive loss implementations (Weighted Cross-Entropy, Focal Loss)
-├── metrics.py                # Imbalance-aware evaluation metrics (Macro/Weighted F1, Per-class Recall)
-├── train.py                  # End-to-end training pipeline with Two-Stage warmup and early stopping
-├── evaluate.py               # Comprehensive evaluation runner, benchmark leaderboard, and Ensemble
-├── explainability.py         # Grad-CAM localization engine generating overlaid visual saliency maps
-├── download_dataset.py       # Automated Kaggle dataset downloader and synchronizer
-├── prepare_data.py           # Dataset integrity checks and stratified partitioning utility
-├── requirements.txt          # Python dependency specifications
+├── train.py                                  # CLI training pipeline with Two-Stage warmup and early stopping
+├── evaluate.py                               # CLI evaluation runner & benchmark leaderboard generator
+├── predict.py                                # CLI inference & Grad-CAM single-image prediction
+├── config.py, dataset.py, models.py, ...     # Backward-compatible root wrappers for the core package
+├── requirements.txt                          # Python dependencies with PyTorch CUDA acceleration
+├── README.md                                 # Primary repository landing page and documentation hub
+│
+├── src/                                      # Core Deep Learning Package
+│   ├── config.py                             # Centralized hyperparameters, classes, and filesystem paths
+│   ├── dataset.py                            # PyTorch Dataset, stratified splitting, and WeightedRandomSampler
+│   ├── models.py                             # Model builder for MobileNetV2, ResNet50, EfficientNet-B0, DenseNet-121
+│   ├── loss.py                               # Cost-sensitive loss implementations (Weighted CE, Focal Loss)
+│   ├── metrics.py                            # Imbalance-aware metrics (Macro/Weighted F1, Recall, Precision)
+│   └── explainability.py                     # Standalone Grad-CAM heatmap generator for single/multi-class images
+│
+├── scripts/                                  # Data Ingestion & Partitioning Utilities
+│   ├── download_dataset.py                   # Kaggle dataset downloader utility
+│   └── prepare_data.py                       # Dataset audit and stratified partitioning script
+│
+├── myDoc/                                    # Academic Documentation & Research Reports
+│   ├── CocoGuard_Comprehensive_Research_Report.md  # Master empirical report (6 sections, full data & tables)
+│   ├── CocoGuard_Research_Report.pdf               # Publication-quality 8-page compiled PDF report (11.9 MB)
+│   ├── research_report_models_and_gradcam.md       # Technical report matching the PDF exhibits
+│   ├── presentation_context_btp.md                 # Context document for generating BTP presentation slides
+│   ├── data_imbalance_mitigation.md                # Mathematical framework for overcoming class imbalance
+│   ├── train_explanation.md                        # Two-Stage training pipeline explanation
+│   ├── project_progress_and_current_status.md      # Development milestone log
+│   ├── progress.md                                 # Technical transition & operational log
+│   └── build_pdf_report.py                         # Headless Chromium PDF compiler
+│
+├── Test and Eval/                            # Empirical Evaluation Suite & Stress-Testing Engine
+│   ├── run_experiments.py                   # Automated overnight benchmark runner across 13,836 field images
+│   ├── generate_empirical_figures.py         # Figure 3, 5, 6 generator & PDF rebuild pipeline
+│   ├── generate_plots.py                     # Figure 1, 2, 4, 7 generator from experiment metrics
+│   ├── generate_cam_figures.py               # Figure 8 & 9 high-res Grad-CAM grid generator
+│   ├── corruptions.py                        # In-memory image corruption suite (Blur, Dark, Bright, JPEG)
+│   ├── metrics_engine.py                     # Bootstrap CIs, ECE calibration, and TemperatureScaler
+│   └── cam_engine.py                         # PyTorch Grad-CAM engine with Pearson, SSIM, and IoU metrics
 │
 ├── data/
-│   ├── raw/                  # Full raw dataset organized by class subfolders
-│   └── splits/               # Generated stratified CSV splits (train.csv, val.csv, test.csv)
-│
-├── myDoc/
-│   ├── data_imbalance_mitigation.md       # Methodological framework & math for overcoming severe class imbalance
-│   ├── train_explanation.md               # Training pipeline architecture & code walkthrough
-│   └── project_progress_and_current_status.md # Cumulative project milestones, status & results
+│   ├── raw/                                  # 5,798 raw training photos by class folder [Git-Ignored]
+│   ├── splits/                               # Stratified train.csv, val.csv, and test.csv partitions
+│   └── Coconut_Tree_Disease_Dataset.v3i.folder/ # 13,836 independent field images [Git-Ignored]
 │
 └── outputs/
-    ├── checkpoints/          # Saved model weights (*.pth) for all architectures
-    ├── metrics/              # JSON metrics logs and comparative CSV leaderboards
-    └── plots/                # Training curves, confusion matrices, and Grad-CAM heatmaps
+    ├── checkpoints/                          # Saved model weights (*.pth, 8.5MB to 89MB) [Git-Ignored]
+    ├── experiments/                          # experiment_results.json & empirical_logits.npz [Git-Ignored]
+    ├── metrics/                              # Evaluation JSON logs and comparative CSV rankings
+    ├── reports/                              # Generated PDF reports (.gitkeep tracked)
+    └── plots/                                # Diagnostic figures
+        └── report/                           # All 9 publication figures (fig1 through fig9)
 ```
 
 ---
 
 ## Installation & Quickstart
 
-### 1. Prerequisites & Environment Setup
-Clone the repository and create an isolated Python virtual environment:
-
+### 1. Environment Setup
 ```powershell
 # Clone repository
 git clone https://github.com/YourUsername/Coconut-Tree-Disease-Detection.git
 cd Coconut-Tree-Disease-Detection
 
-# Create and activate virtual environment
+# Create and activate Python virtual environment
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-# Install dependencies with PyTorch CUDA 12.1 acceleration
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-*(Ensure PyTorch detects your GPU)*:
+Verify CUDA GPU detection:
 ```powershell
 python -c "import torch; print('CUDA Available:', torch.cuda.is_available(), '| Device:', torch.cuda.get_device_name(0))"
 ```
 
-### 2. Dataset Setup
-Download and synchronize the Kaggle coconut disease dataset:
+### 2. Training Models
 ```powershell
-python download_dataset.py
+# Train MobileNetV2 with Two-Stage Fine-Tuning and WeightedRandomSampler
+python train.py --model mobilenet_v2 --epochs 25
+
+# Train EfficientNet-B0 with Cost-Sensitive Weighted Cross-Entropy
+python train.py --model efficientnet_b0 --loss weighted_ce --epochs 25
+
+# Train DenseNet-121
+python train.py --model densenet121 --epochs 25
 ```
 
----
-
-## Usage & CLI Guide
-
-### Training Models
-
-#### Train MobileNetV2 with Two-Stage Fine-Tuning & Full Dataset Sampling:
+### 3. Evaluating Models
 ```powershell
-python train.py --model mobilenet_v2 --resplit --epochs 25
-```
-
-#### Train ResNet-50 with Focal Loss:
-```powershell
-python train.py --model resnet50 --loss focal --epochs 25
-```
-
-#### Key Training Flags:
-- `--model`: Backbone architecture (`mobilenet_v2`, `resnet50`, `efficientnet_b0`, `densenet121`).
-- `--loss`: Loss function (`weighted_ce`, `focal`, `standard_ce`).
-- `--epochs`: Total training epochs (default: `25`).
-- `--warmup_epochs`: Number of initial epochs with frozen backbone (default: `3`).
-- `--label_smoothing`: Label smoothing parameter (default: `0.1`).
-- `--patience`: Early stopping tolerance in epochs (default: `7`).
-- `--resplit`: Regenerates stratified train/val/test splits.
-- `--no_sampler`: Disables WeightedRandomSampler (uses standard shuffle).
-
----
-
-### Model Evaluation & Benchmarking
-
-#### 1. Evaluate on the Standard Test Split:
-```powershell
-# Evaluate single model
-python evaluate.py --model mobilenet_v2
-
-# Evaluate all trained models and generate comparison table
+# Standard test split evaluation across all models
 python evaluate.py --all
+
+# Generate single-image Grad-CAM explanation
+python explainability.py --model mobilenet_v2 --image path/to/leaf.jpg
 ```
 
-#### 2. Evaluate on All Remaining Unseen Field Images (3,781 images):
+### 4. Running the Empirical Robustness & Figure Suite
+To evaluate all models on the 13,836 field dataset and generate Figures 3, 5, and 6:
 ```powershell
-python evaluate.py --remaining
+# Fast essential evaluation (~3.5 minutes on RTX 2050 GPU)
+python "Test and Eval/generate_empirical_figures.py" --batch-size 128
+
+# Re-compile the publication PDF report at any time
+python myDoc/build_pdf_report.py
 ```
-
-#### 3. Run Soft-Voting Ensemble:
-```powershell
-python evaluate.py --ensemble --remaining
-```
-
-All evaluation runs automatically generate:
-- High-resolution confusion matrix heatmaps in `outputs/plots/cm_*.png`.
-- Detailed per-class precision, recall, and F1 reports in `outputs/metrics/eval_*.json`.
-- Comparative ranking table in `outputs/metrics/model_comparison_*.csv`.
-
----
-
-### Explainable AI (Grad-CAM Saliency Maps)
-
-To visualize the exact lesion features influencing the CNN's decision:
-
-```powershell
-# Generate Grad-CAM for a specific field image
-python explainability.py --model mobilenet_v2 --image path/to/leaf_image.jpg
-
-# Generate Grad-CAM heatmaps across sample images for all classes
-python explainability.py --all_classes
-```
-
-Grad-CAM highlights:
-- Necrotic lesions and yellow chlorotic halos for **Gray Leaf Spot** and **Leaf Rot**.
-- Dark trunk bleeding cracks for **Stem Bleeding**.
-- Apical bud vascular decay for **Bud Rot**.
-
----
-
-## Hardware Efficiency & Deployment Feasibility
-
-| Deployment Target | Recommended Architecture | Latency | Frame Rate | Footprint | Power Profile |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| **Drone / UAV Inspection** | MobileNetV2 | **4.92 ms** | **203.3 FPS** | **8.5 MB** | Ultra-Low Power |
-| **Android / iOS Mobile App** | MobileNetV2 (ONNX/TFLite) | **~10 ms** | **~100 FPS** | **8.5 MB** | Battery Efficient |
-| **Cloud Server Batch Diagnosis** | Soft-Voting Ensemble | **11.08 ms** | **90.3 FPS** | **98.2 MB** | High Redundancy / Safe |
 
 ---
 
 ## References & Academic Citations
 
-1. **Dataset Source**: Thite, S., et al. (2023). *Multi-Class Coconut Tree Disease Dataset*. Kaggle.
-2. **Focal Loss**: Lin, T. Y., Goyal, P., Girshick, R., He, K., & Dollár, P. (2017). *Focal loss for dense object detection*. IEEE International Conference on Computer Vision (ICCV), 2980-2988.
-3. **Grad-CAM**: Selvaraju, R. R., Cogswell, M., Das, A., Vedaldi, A., Parikh, D., & Batra, D. (2017). *Grad-CAM: Visual explanations from deep networks via gradient-based localization*. IEEE ICCV, 618-626.
-4. **MobileNetV2**: Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). *MobileNetV2: Inverted residuals and linear bottlenecks*. IEEE CVPR, 4510-4520.
-5. **ResNet**: He, K., Zhang, X., Ren, S., & Sun, J. (2016). *Deep residual learning for image recognition*. IEEE CVPR, 770-778.
+1. **Dataset Benchmark**: Thite, S., et al. (2023). *Multi-Class Coconut Tree Disease Dataset*.
+2. **Grad-CAM**: Selvaraju, R. R., et al. (2017). *Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization*. IEEE ICCV.
+3. **MobileNetV2**: Sandler, M., et al. (2018). *MobileNetV2: Inverted Residuals and Linear Bottlenecks*. IEEE CVPR.
+4. **EfficientNet**: Tan, M., & Le, Q. V. (2019). *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks*. ICML.
+5. **DenseNet**: Huang, G., et al. (2017). *Densely Connected Convolutional Networks*. IEEE CVPR.
+6. **Calibration**: Guo, C., et al. (2017). *On Calibration of Modern Neural Networks*. ICML.
 
 ---
 
 ## Acknowledgments
 
-We express our sincere gratitude to our project supervisor, faculty members, and the **Department of Computer Science and Engineering at IIIT Kottayam** for their guidance, computational infrastructure, and encouragement throughout our final year B.Tech Project.
+We express our sincere gratitude to our project supervisors, faculty evaluators, and the **Department of Computer Science & Engineering at IIIT Kottayam** for their academic guidance, computational resources, and support throughout our Final Year B.Tech Project.
