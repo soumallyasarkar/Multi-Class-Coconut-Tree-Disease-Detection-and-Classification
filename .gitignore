@@ -92,4 +92,6 @@ scratch/
 .system_generated/
 
 # --- Documentation & Working Notes ---
-myDoc/
+# myDoc/ is now tracked for project reports and figures
+outputs/plots/report/extracted_ref/
+outputs/experiments/*.npz

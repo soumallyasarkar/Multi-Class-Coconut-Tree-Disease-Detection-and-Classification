@@ -1,0 +1,5 @@
+flowchart LR
+    A["Trained Checkpoints<br/>(ResNet50, MobileNetV2,<br/>EfficientNet-B0, DenseNet121)"] --> B["1. Clean Evaluation<br/>• Accuracy, Macro-F1 (95% CI)<br/>• ECE & Brier Score<br/>• Confusion Matrices"]
+    A --> C["2. Corruption Suite<br/>• Blur, Dark, Bright, JPEG<br/>• Severity 1, 2, 3<br/>• Sink Class Shift Analysis"]
+    A --> D["3. Calibration & Rejection<br/>• Temperature Scaling<br/>• Risk-Coverage Curves<br/>• Reliability Diagrams"]
+    A --> E["4. Grad-CAM Stability<br/>• Heatmap Pearson & SSIM<br/>• Cross-model Agreement<br/>• Flip-Consistency AUROC"]
