@@ -19,10 +19,7 @@ import numpy as np
 import pandas as pd
 import torch
 
-import config
-import dataset
-import metrics
-import models
+from src import config, dataset, metrics, models
 
 
 def plot_confusion_matrix(cm: np.ndarray, class_names: list, save_path: Path, title: str = "Confusion Matrix"):

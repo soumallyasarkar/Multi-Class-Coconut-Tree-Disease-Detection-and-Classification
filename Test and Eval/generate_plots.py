@@ -25,7 +25,7 @@ import numpy as np
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
-import config
+from src import config
 
 # Styling settings for crisp publication-ready aesthetics
 plt.rcParams.update({

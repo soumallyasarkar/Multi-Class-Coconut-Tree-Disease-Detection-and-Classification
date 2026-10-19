@@ -171,7 +171,6 @@ c:/Github/BTP/Multi-Class-Coconut-Tree-Disease-Detection-and-Classification/
 ├── train.py                                  # CLI training pipeline with Two-Stage warmup and early stopping
 ├── evaluate.py                               # CLI evaluation runner & benchmark leaderboard generator
 ├── predict.py                                # CLI inference & Grad-CAM single-image prediction
-├── config.py, dataset.py, models.py, ...     # Backward-compatible root wrappers for the core package
 ├── requirements.txt                          # Python dependencies with PyTorch CUDA acceleration
 ├── README.md                                 # Primary repository landing page and documentation hub
 │

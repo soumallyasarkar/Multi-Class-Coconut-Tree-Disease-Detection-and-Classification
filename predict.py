@@ -15,10 +15,7 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 
-import config
-import dataset
-import explainability
-import models
+from src import config, dataset, explainability, models
 
 
 def load_model_from_checkpoint(checkpoint_path: Path):

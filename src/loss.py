@@ -18,7 +18,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import config
+try:
+    from . import config
+except ImportError:
+    from src import config
 
 
 def compute_class_weights(

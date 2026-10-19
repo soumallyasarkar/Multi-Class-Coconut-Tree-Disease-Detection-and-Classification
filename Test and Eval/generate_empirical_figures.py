@@ -28,8 +28,7 @@ from tqdm import tqdm
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
 
-import config
-import models
+from src import config, models
 from metrics_engine import TemperatureScaler, compute_ece
 
 CLASSES = config.CLASSES

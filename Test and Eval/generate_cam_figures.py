@@ -25,8 +25,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
 sys.path.insert(0, str(ROOT_DIR / "Test and Eval"))
 
-import config
-import models
+from src import config, models
 from corruptions import corrupt_image
 
 

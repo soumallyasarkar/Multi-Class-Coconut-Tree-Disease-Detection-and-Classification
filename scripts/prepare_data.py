@@ -14,13 +14,17 @@ Usage:
 """
 
 import argparse
+import sys
 from pathlib import Path
 from typing import Optional
 import numpy as np
 from PIL import Image
 
-import config
-import dataset
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from src import config, dataset
 
 
 def setup_class_directories(target_dir: Path = config.RAW_DATA_DIR):

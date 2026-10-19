@@ -15,7 +15,10 @@ import torch
 import torch.nn as nn
 from torchvision import models
 
-import config
+try:
+    from . import config
+except ImportError:
+    from src import config
 
 
 def build_model(

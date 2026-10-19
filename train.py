@@ -19,11 +19,7 @@ import matplotlib.pyplot as plt
 import torch
 import torch.optim as optim
 
-import config
-import dataset
-import loss
-import metrics
-import models
+from src import config, dataset, loss, metrics, models
 
 # Optional tqdm for clean progress bars, with fallback
 try:

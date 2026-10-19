@@ -13,7 +13,10 @@ import torch
 from torch.utils.data import Dataset, DataLoader, WeightedRandomSampler
 from torchvision import transforms
 
-import config
+try:
+    from . import config
+except ImportError:
+    from src import config
 
 
 # ====================================================================

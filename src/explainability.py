@@ -16,9 +16,10 @@ from PIL import Image
 import torch
 import torch.nn.functional as F
 
-import config
-import dataset
-import models
+try:
+    from . import config, dataset, models
+except ImportError:
+    from src import config, dataset, models
 
 
 class GradCAM:

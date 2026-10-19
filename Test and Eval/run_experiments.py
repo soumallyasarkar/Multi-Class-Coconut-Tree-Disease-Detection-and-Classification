@@ -31,8 +31,7 @@ from torchvision import transforms
 ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
 
-import config
-import models
+from src import config, models
 from corruptions import CorruptedDataset, CORRUPTIONS, ALL_CONDITIONS
 from metrics_engine import (
     compute_macro_f1_with_bootstrap_ci,
